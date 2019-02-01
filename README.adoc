@@ -33,7 +33,7 @@ and epub document formats directly without the intervention of any other externa
 tool or intermediate format like dblatex or docbook. See the
 http://asciidoctor.org/docs/convert-asciidoc-to-pdf/[asciidoctor-pdf] project.
 
-* https://po4a.alioth.debian.org/[po4a] >= 0.45 is used to translate the English
+* https://po4a.org/[po4a] >= 0.45 is used to translate the English
 AsciiDoc documentation to other languages before the last compilation steps.
 * CMake >= 2.8
 * dblatex >= 0.3.4
