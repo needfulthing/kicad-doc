@@ -29,9 +29,8 @@ msgid ""
 "_Essential and concise guide to mastering KiCad for the successful "
 "development of sophisticated electronic printed circuit boards._"
 msgstr ""
-"_Wichtiger und kurz gefasster Guide zum Meistern der Arbeit mit KiCad um "
-"erfolgreich anspruchsvolle elektronische Platinenlayouts entwickeln zu "
-"können ..._"
+"_Grundlegende und kurz gefasste Anleitung zum Bewältigen der Arbeit mit KiCad, um "
+"erfolgreich anspruchsvolle elektronische Platinenlayouts zu entwickeln._"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:14
@@ -41,7 +40,6 @@ msgstr "*Copyright*\n"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:20
-#, fuzzy
 #| msgid ""
 #| "This document is Copyright (C) 2010-2015 by its contributors as listed "
 #| "below. You may distribute it and/or modify it under the terms of either "
@@ -55,18 +53,17 @@ msgid ""
 "or later, or the Creative Commons Attribution License (http://"
 "creativecommons.org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
-"Dieses Dokument ist geschützt (C) 2010-2015 durch deren Beitragende welche "
-"nachfolgend aufgeführt sind. Sie können es nach den Bedingungen der GNU "
-"General Public License (https://www.gnu.org/licenses/gpl.html), Version 3 "
-"oder später, oder der Creative Commons Attribution License (https://"
-"creativecommons.org/licenses/by/3.0/), Version 3.0 oder später verteilen "
-"oder verändern."
+"Das Copyright (C) 2010-2018 dieses Dokuments liegt bei seinen Beitragenden "
+"wie unten aufgelistet. Sie können es weitergeben und/oder verändern unter "
+"den Bedingungen der GNU General Public License (http://www.gnu.org/licenses/gpl.html), "
+"Version 3 oder neuer, oder der Creative Commons Attribution License (http://"
+"creativecommons.org/licenses/by/3.0/), Version 3.0 oder neuer."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:22
 msgid "All trademarks within this guide belong to their legitimate owners."
 msgstr ""
-"Alle Markenrechtsnamen in diesem Guide gehören den rechtmäßigen Eigentümern."
+"Alle Markenrechtsnamen in dieser Anleitung gehören den rechtmäßigen Eigentümern."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:25
@@ -94,8 +91,7 @@ msgstr "*Feedback*\n"
 #: getting_started_in_kicad.adoc:32
 msgid "Please direct any bug reports, suggestions or new versions to here:"
 msgstr ""
-"Bitte alle Bug Reports, Vorschläge oder neue Versionen an folgende Adressen "
-"richten:"
+"Bitte richten Sie alle Bug Reports, Vorschläge oder neue Versionen an folgende Adressen:"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:34
@@ -140,9 +136,9 @@ msgid ""
 "incorporates an elegant ensemble of the following stand-alone software tools:"
 msgstr ""
 "KiCad ist ein Open Source Softwaretool zum Erstellen von elektronischen "
-"Schaltplänen und PCB Layouts. Durch seine einheitliche Schnittstellentechnik "
-"verbindet KiCad elegant die einzelnen folgenden eigenständigen Software "
-"Tools:"
+"Schaltplänen und Vorlagen für Platinen (PCB, _Printed Circuit Board_)). Unter "
+"seiner einheitlichen Oberfläche verbindet KiCad elegant die folgenden eigenständigen "
+"Software-Werkzeuge:"
 
 #. type: delimited block |
 #: getting_started_in_kicad.adoc:63
@@ -159,11 +155,11 @@ msgid ""
 msgstr ""
 "|Programmname|Beschreibung|Datei Erweiterung\n"
 "|KiCad |Projekt Manager|+*.pro+\n"
-"|Eeschema |Schaltplan Editor (Schaltplan und Bauteile)|+*.sch, *.lib, *.net+\n"
+"|Eeschema |Editor für Schaltpläne und Bauteile|+*.sch, *.lib, *.net+\n"
 "|Pcbnew |Leiterplatten Editor|+*.kicad_pcb, *.kicad_mod+\n"
-"|GerbView |Betrachter Gerber- und Bohrdateien|+\\*.g*, *.drl, etc.+\n"
-"|Bitmap2Component |Konvertiert Bitmapgrafiken in Bauteile oder Footprints|+*.lib, *.kicad_mod, *.kicad_wks+\n"
-"|PCB Calculator |Kalkulator für Bauteile, Leiterbahnbreite, Elektrische Abstände, Farbcodes, und mehr ...|Keine\n"
+"|GerbView |Betrachter für Gerber- und Bohrdateien|+\\*.g*, *.drl, etc.+\n"
+"|Bitmap2Component |Konvertiert Bitmap-Grafiken in Bauteile oder Footprints|+*.lib, *.kicad_mod, *.kicad_wks+\n"
+"|PCB Calculator |Kalkulator für Bauteile, Leiterbahnbreite, elektrische Abstände, Farbcodes, und mehr ...|Keine\n"
 "|Pl Editor |Seiten Layout Editor|+*.kicad_wks+\n"
 
 #. type: Plain text
@@ -174,8 +170,8 @@ msgid ""
 "files are used for each KiCad application."
 msgstr ""
 "Die Liste der Datei Erweiterungen ist nicht komplett und beinhaltet nur eine "
-"Teilmenge der Dateien mit denen KiCad arbeitet. Diese ist jedoch hilfreich "
-"für ein Basiswissen welche Dateien in den einzelnen KiCad Applikationen "
+"Teilmenge der Dateien, die KiCad unterstützt. Sie ist jedoch hilfreich "
+"für ein Basiswissen, welche Dateien in den einzelnen KiCad Applikationen "
 "benutzt werden."
 
 #. type: Plain text
@@ -184,7 +180,7 @@ msgid ""
 "KiCad can be considered mature enough to be used for the successful "
 "development and maintenance of complex electronic boards."
 msgstr ""
-"KiCad kann als ausreichend ausgereift betrachtet werden um erfolgreich auch "
+"KiCad kann als ausreichend ausgereift betrachtet werden, um erfolgreich auch "
 "komplexe elektronische Schaltungen und Leiterplatten entwickeln und managen "
 "zu können."
 
@@ -199,9 +195,9 @@ msgid ""
 msgstr ""
 "KiCad hat keine Beschränkungen bei der Platinengröße und es kann bis zu 32 "
 "Kupferlagen, bis zu 14 technische Lagen und bis zu vier Hilfslagen einfach "
-"kontrollieren. KiCad kann alle Dateien erstellen die nötig sind für "
-"gedruckte Schaltungen, ebenso Gerber Dateien für Foto Plotter, Bohrdateien, "
-"Bauteilplatzierungsdateien und noch vieles mehr."
+"handhaben. KiCad kann alle Dateien erstellen, die nötig sind für "
+"gedruckte Schaltungen, Gerber Dateien für Foto Plotter, Bohrdateien, "
+"Bauteilplatzierungsdateien und noch vieles andere."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:82
@@ -210,9 +206,9 @@ msgid ""
 "projects oriented towards the creation of electronic hardware with an open-"
 "source flavour."
 msgstr ""
-"Durch die Open Source Ausrichtung (GPL lizenzensiert) repräsentiert KiCad "
-"sich als das ideale Tool für fortschrittlich ausgerichtete Projekte die "
-"elektronische Hardware erstellen."
+"KiCad ist Open Source (GPL lizensiert) und stellt daher ein ideales Werkzeug"
+"dar für Projekte aus dem Bereich der Erstellung von elektronischer Hardware"
+"aus dem Open Source Bereich."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:84
@@ -237,8 +233,8 @@ msgid ""
 "KiCad runs on GNU/Linux, Apple macOS and Windows.  You can find the most up "
 "to date instructions and download links at:"
 msgstr ""
-"KiCad ist lauffähig auf GNU/Linux, Apple Mac OS und Windows. Sie finden die "
-"aktuellsten Anleitungen und Download Links unter:"
+"KiCad läuft auf GNU/Linux, Apple Mac OS und Windows. Sie finden die "
+"aktuellsten Anleitungen und Download-Links unter:"
 
 # No transalation needed.
 #. type: Plain text
@@ -263,14 +259,14 @@ msgstr ""
 "Stabile Veröffentlichungen von KiCad erscheinen periodisch nach den http://"
 "ci.kicad-pcb.org/job/kicad-doxygen/ws/Documentation/doxygen/html/"
 "md_Documentation_development_stable-release-policy.html[KiCad Stable "
-"Veröffentlichungsregeln]. Neue Features werden kontinuierlich im "
-"Entwicklungsbranch hinzugefügt. Wenn Sie die Möglichkeiten dieser neuen "
-"Funktionen nutzen wollen oder helfen wollen beim Testen dieser, laden Sie "
-"sich bitte die aktuellste Entwicklungsversion (Nightly Builds) für Ihre "
+"Veröffentlichungsregeln]. Neue Funktionen werden kontinuierlich im "
+"Entwicklungszweig hinzugefügt. Wenn Sie die Möglichkeiten dieser neuen "
+"Funktionen nutzen oder beim Testen helfen wollen, laden Sie "
+"sich bitte die aktuellste Entwicklungsversion (Nightly Build) für Ihre "
 "Plattform herunter. Entwicklungsversionen können neue Fehler enthalten, aber "
-"es ist dem KiCad Development Team ein Anliegen den aktuellen "
-"Entwicklungsbranch bestmöglich benutzbar zu halten während dem Hinzufügen "
-"neuer Funktionen."
+"es ist dem KiCad Development Team ein Anliegen, den aktuellen "
+"Entwicklungszweig während der Entwicklung neuer Funktionen so benutzbar wie "
+"möglich zu halten."
 
 #. type: Title ====
 #: getting_started_in_kicad.adoc:107
@@ -286,11 +282,11 @@ msgid ""
 "latest stable version, please follow the instruction for unstable builds and "
 "select and install the latest stable version."
 msgstr ""
-"Stabile KiCad Veröffentlichungen können in den meisten Paketverwaltungen der "
+"Stabile Veröffentlichungen von KiCad können in den meisten Paketverwaltungen der "
 "jeweiligen Distribution gefunden werden, meistens unter den Namen 'kicad' "
 "und 'kicad-doc'. Wenn Ihre Distribution nicht die aktuelle stabile Version "
-"bereit hält dann folgen Sie den Anweisungen für die Entwicklerversion und "
-"wählen die letzte stabile Version."
+"bereit hält, dann folgen Sie den Anweisungen für Entwicklerversionen und "
+"wählen und installieren Sie die letzte stabile Version."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:116
@@ -298,8 +294,8 @@ msgid ""
 "Under Ubuntu, the easiest way to install an unstable nightly build of KiCad "
 "is via _PPA_ and __Aptitude__. Type the following into your Terminal:"
 msgstr ""
-"Zum Beispiel in Ubuntu ist der übliche Weg eine Entwicklerversionen zu "
-"installieren via zusätzlichem _PPA_ und dem Paketmanager __Aptitude__. Dazu "
+"Unter Ubuntu ist der einfachste Weg, eine Entwicklerversionen zu "
+"installieren, via zusätzlichem _PPA_ und dem Paketmanager __Aptitude__. Dazu "
 "sind folgende Eingaben in einem Terminal nötig:"
 
 #. type: delimited block -
@@ -315,6 +311,7 @@ msgstr ""
 #: getting_started_in_kicad.adoc:124
 msgid "Under Debian, the easiest way to install backports build of KiCad is:"
 msgstr ""
+"Der einfachste Weg, unter Debian Backport-Versionen von KiCad zu installieren, ist:"
 
 #. type: delimited block -
 #: getting_started_in_kicad.adoc:132
@@ -343,9 +340,9 @@ msgid ""
 "Under Fedora the easiest way to install an unstable nightly build is via "
 "__copr__.  To install KiCad via copr type the following in to copr:"
 msgstr ""
-"In Fedora benutzen Sie ebenfalls den Paketmanager __copr__ um einfach eine "
-"Entwicklerversionen zu installieren. Um KiCad durch copr zu installieren "
-"bitte folgende Eingaben in einem Terminal tätigen:"
+"In Fedora benutzen Sie den Paketmanager __copr__, um einfach eine "
+"Entwicklerversion zu installieren. Um KiCad durch copr zu installieren, "
+"geben Sie folgendes in einem Terminal ein:"
 
 # No transalation needed.
 #. type: delimited block -
@@ -363,8 +360,8 @@ msgid ""
 "Alternatively, you can download and install a pre-compiled version of KiCad, "
 "or directly download the source code, compile and install KiCad."
 msgstr ""
-"Sie können alternativ vorkompilierte Versionen von KiCad herunterladen und "
-"installieren. Oder Sie laden den Source Code herunter und kompilieren und "
+"Alternativ können Sie eine vorkompilierte Version von KiCad herunterladen und "
+"installieren. Oder Sie laden direkt den Quelltext herunter und kompilieren und "
 "installieren KiCad selbst."
 
 #. type: Title ====
@@ -426,7 +423,7 @@ msgstr "Support"
 #: getting_started_in_kicad.adoc:170
 msgid "If you have ideas, remarks or questions, or if you just need help:"
 msgstr ""
-"Wenn Sie Ideen, Anmerkungen oder Fragen haben, oder einfach nur Hilfe "
+"Wenn Sie Ideen, Anmerkungen oder Fragen haben oder einfach nur Hilfe "
 "benötigen:"
 
 #. type: Plain text
@@ -464,9 +461,9 @@ msgid ""
 "footprints are separate. Only after creating a schematic are footprints "
 "assigned to the components."
 msgstr ""
-"Ungeachtet der Ähnlichkeiten mit anderen PCB Software Tools charakterisiert "
-"sich KiCad durch einen interessanten Arbeitsablauf in dem Bauteilkomponenten "
-"und Footprints zwei verschiedene Einheiten bilden. Erst nach dem Erstellen "
+"Ungeachtet der Ähnlichkeiten mit anderen PCB Software Tools zeichnet sich "
+"KiCad durch einen einzigartigen Arbeitsablauf aus, in dem Bauteilkomponenten "
+"und Footprints separat behandelt werden. Erst nach dem Erstellen "
 "eines Schaltplanes werden den Bauteilen Footprints zugewiesen."
 
 #. type: Title ===
@@ -483,12 +480,11 @@ msgid ""
 "library are necessary for these two tasks. KiCad includes many components "
 "and footprints, and also has the tools to create new ones."
 msgstr ""
-"Der Arbeitsablauf in KiCad beinhaltet zwei Hauptvorgänge: Erstellen des "
-"Schaltplanes und Anlegen der Platine. Dazu sind zwei Arten Bibliotheken, die "
+"Der Arbeitsablauf in KiCad beinhaltet zwei Hauptvorgänge: Das Zeichnen des "
+"Schaltplanes und das Anlegen der Platine. Dazu sind zwei Arten von Bibliotheken, die "
 "Bauteilbibliotheken und die Bibliotheken der Footprints, nötig. KiCad "
-"beinhaltet zahlreiche dieser Bibliotheken. Und wenn diese nicht ausreichend "
-"sind, KiCad besitzt ebenso die nötigen Tools um neue Bibliotheken zu "
-"erstellen."
+"beinhaltet bereits zahlreiche Bauteile und Footprints und besitzt ebenso "
+"die nötigen Werkzeuge, um neue zu erstellen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:194
@@ -497,14 +493,14 @@ msgid ""
 "The flowchart explains which steps you need to take, and in which order.  "
 "When applicable, the icon is added for convenience."
 msgstr ""
-"In der nach folgenden Grafik sehen Sie ein Flussdiagramm welches den KiCad "
-"Arbeitsablauf darstellt. Das Bild erklärt die Schritte und deren Reihenfolge "
-"die nötig sind beim Arbeiten mit KiCad. Wenn möglich wird das zugehöre Icon "
+"In der nachfolgenden Grafik sehen Sie ein Flussdiagramm, welches den KiCad "
+"Arbeitsablauf zeigt. Das Bild erklärt die einzelnen Schritte der Arbeit "
+"mit KiCad und ihre Reihenfolge. Wenn möglich, wird das zugehörige Icon "
 "des Menüpunktes mit dargestellt."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:195
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "KiCad Workflow"
 msgid "KiCad Flowchart"
 msgstr "KiCad Arbeitsablauf"
@@ -529,10 +525,10 @@ msgid ""
 "to create a new footprint, see <<make-component-footprints,Making component "
 "footprints>>."
 msgstr ""
-"Mehr Informationen über das Erstellen eines Bauteils finden Sie in die "
-"Sektion <<make-schematic-components-in-kicad,Erstellen von Bauteilen in "
-"KiCad>>. Für mehr Informationen über das Erstellen eines neuen Footprints "
-"schauen Sie bitte in die Sektion <<make-component-footprints,Erstellen eines "
+"Mehr Informationen über das Erstellen eines Bauteils finden Sie im "
+"Abschnitt <<make-schematic-components-in-kicad,Erstellen von Bauteilen in "
+"KiCad>>. Mehr Informationen über das Erstellen eines neuen Footprints "
+"finden Sie im Abschnitt <<make-component-footprints,Erstellen eines "
 "Footprints>> in diesem Dokument."
 
 #. type: Plain text
@@ -543,9 +539,9 @@ msgid ""
 "more information about Quicklib, refer to <<make-schematic-components-with-"
 "quicklib,Making Schematic Components With Quicklib>>."
 msgstr ""
-"http://kicad.rohrbacher.net/quicklib.php[Quicklib] ist ein Werkzeug welches "
-"es Ihnen erlaubt KiCad Bauteile über ein Webinterface schnell zu erstellen. "
-"Für weitere Informationen über Quicklib sei auf die Sektion <<make-schematic-"
+"http://kicad.rohrbacher.net/quicklib.php[Quicklib] ist ein Werkzeug, das "
+"Ihnen erlaubt, KiCad Bauteile über ein Webinterface schnell zu erstellen. "
+"Für weitere Informationen über Quicklib sei auf den Abschnitt <<make-schematic-"
 "components-with-quicklib,Erstellen von Schaltplansymbolen mit quicklib>> in "
 "diesem Dokument verwiesen."
 
@@ -553,7 +549,7 @@ msgstr ""
 #: getting_started_in_kicad.adoc:209
 #, no-wrap
 msgid "Forward and backward annotation"
-msgstr "Vorwärts und Rückwärts Annotation"
+msgstr "Vorwärts- und Rückwärts-Annotation"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:215
@@ -563,12 +559,12 @@ msgid ""
 "parts changed to a different size, net renamed, etc. This can be done in two "
 "ways: Forward Annotation or Backward Annotation."
 msgstr ""
-"Ist ein elektronischer Schaltplan komplett gezeichnet dann ist der nächste "
-"Schritt diesen in eine Platine (PCB, _Printed Cicruit Board_) umzuwandeln. "
+"Sobald ein elektronischer Schaltplan komplett gezeichnet ist, wird dieser im nächsten "
+"Schritt in eine Platine (PCB, _Printed Circuit Board_) umgewandelt. "
 "Oft müssen dann noch zusätzliche Komponenten hinzugefügt, Bauteile in deren "
-"Größe oder Bauform geändert oder Bauteile verschoben, Netze umbenannt "
-"werden. Dies kann auf zwei Arten erfolgen: Vorwärts Annotation und Rückwärts "
-"Annotation."
+"Größe oder Bauform geändert oder verschoben werden oder Netze umbenannt "
+"werden. Dies kann auf zwei Arten erfolgen: mittels Vorwärts-Annotation oder "
+"Rückwärts-Annotation."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:222
@@ -580,12 +576,12 @@ msgid ""
 "to the PCB. Details about Forward Annotation are discussed in the section "
 "<<forward-annotation-in-kicad,Forward Annotation>>."
 msgstr ""
-"Bei der Vorwärts Annotation werden Veränderungen am Schaltplan in "
-"inkrementeller Form an das zugehörige PCB Layout geschickt. Dies ist ein "
-"wichtiges Feature da Sie nicht wirklich die Platine jedes mal neu entwerfen "
-"wollen sobald Sie eine Veränderung am Schaltplan durchführen. Vorwärts "
-"Annotation ist in der Sektion <<forward-annotation-in-kicad,Vorwärts "
-"Annotation in KiCad>> erläutert."
+"Vorwärts-Annotation ist der Vorgang, bei dem die Informationen des Schaltplans an das"
+"zugehörige PCB Layout gesandt werden. Dies ist eine grundlegende Funktion, da sie "
+"zumindest einmal vorgenommen werden muss, wenn Sie den Schaltplan das erste Mal in die "
+"PCB Vorlage importieren. Danach erlaubt Ihnen die Vorwärts-Annotation, jede zusätzliche Änderung "
+"im Schaltplan an die PCB Vorlage zu senden. Einzelheiten der Vorwärts-Annotation werden "
+"im Abschnitt <<forward-annotation-in-kicad,Vorwärts-Annotation in KiCad>> näher erläutert."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:229
@@ -597,14 +593,13 @@ msgid ""
 "a strong case for choosing the exact gate or pin. Once the choice is made in "
 "the PCB, this change is then pushed back to the schematic."
 msgstr ""
-"Rückwärts Annotation ist der Prozess eine PCB Layout Veränderung zurück zum "
-"entsprechenden Schaltplan zu schicken. Zwei dieser typischen Anwendungsfälle "
-"für eine Rückwärts Annotation sind das Tauschen von Gattern oder das "
-"Tauschen von Pinanschlüssen. In solchen Situationen werden Gatter oder "
-"Pinbelegungen die funktional gleich sind getauscht da eine andere Zu- oder "
-"Anordnung dieser Elemente auf der PCB das Layouten vereinfacht. Diese "
-"Änderung am PCB Design werden nach der Fertigstellung wieder zurück an den "
-"Schaltplan übertragen."
+"Als Rückwärts-Annotation wird der Prozess bezeichnet, bei dem eine Veränderung in "
+"der PCB Vorlage zurück zum entsprechenden Schaltplan geschickt wird. Zwei typische "
+"Anwendungsfälle für eine Rückwärts-Annotation sind das Tauschen von Gattern oder "
+"von Pin-Anschlüssen. In solchen Situationen werden Gatter oder Pinbelegungen, "
+"die funktional gleich sind, getauscht, da eine andere Zu- oder Anordnung dieser Elemente "
+"auf der PCB das Layouten vereinfacht. Diese Änderung im PCB Design wird nach der "
+"Fertigstellung wieder zurück an den Schaltplan übertragen."
 
 #. type: Title ==
 #: getting_started_in_kicad.adoc:232
@@ -625,9 +620,9 @@ msgid ""
 "and hotkeys. Both are used to speed up working in KiCad by using the "
 "keyboard instead of the mouse to change commands."
 msgstr ""
-"KiCad besitzt zwei unterschiedliche Typen Schnellzugriffstasten: "
-"Tastaturkürzel und Tastaturbefehle. Beide Typen werden benutzt um die Arbeit "
-"mit KiCad zu beschleunigen indem die Tastatur zum Zugriff auf Befehle "
+"KiCad besitzt zwei unterschiedliche Typen von Schnellzugriffstasten: "
+"Tastaturkürzel und Tastaturbefehle. Beide Typen werden benutzt, um die Arbeit "
+"mit KiCad zu beschleunigen, indem die Tastatur zum Zugriff auf Befehle "
 "benutzt wird anstatt der Maus."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
@@ -644,17 +639,17 @@ msgid ""
 "button is clicked. Use an accelerator key when you want to enter a command "
 "mode but do not want any immediate action."
 msgstr ""
-"Tastaturkürzel haben die gleiche Auswirkung wie ein Anklicken eines Icons in "
-"einem Menü oder einer Toolbar: Das Kommando wird aber erst wenn die linke "
-"Maustaste betätigt ausgeführt. Benutzen Sie ein Tastaturkürzel wenn Sie ein "
-"Kommando aufrufen wollen aber keine direkte Ausführung wünschen."
+"Tastaturkürzel haben dieselbe Auswirkung wie das Anklicken eines Menüpunkts "
+"oder eines Toolbar-Icons: Das Kommando wird ausgewählt, aber erst ausgeführt, "
+"wenn die linke Maustaste erneut betätigt wird. Benutzen Sie ein Tastaturkürzel, "
+"wenn Sie ein Kommando aufrufen wollen, aber keine direkte Ausführung wünschen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:247
 msgid "Accelerator keys are shown on the right side of all menu panes:"
 msgstr ""
 "Tastaturkürzel werden in allen geöffneten Menüs auf der rechten Seite "
-"gezeigt."
+"mit angezeigt."
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:248
@@ -675,11 +670,10 @@ msgid ""
 "hotkey starts the command immediately at the current cursor location. Use a "
 "hotkey to quickly change commands without interrupting your workflow."
 msgstr ""
-"Tastaturbefehle sind vergleichbar zu Tastaturkürzeln plus zusätzlich dem "
-"Klick auf der linken Maustaste. Die Benutzung eines Tastaturbefehls führt "
-"die hinterlegte Aktion an der augenblicklichen Cursorposition aus. Benutzen "
-"Sie Tastaturbefehle um Kommandos direkt auszuführen ohne den Workflow zu "
-"unterbrechen."
+"Tastaturbefehle sind wie Tastaturkürzel plus zusätzlich dem Klick auf die "
+"linken Maustaste. Die Benutzung eines Tastaturbefehls führt die zugehörige Aktion "
+"an der augenblicklichen Cursorposition sofort aus. Benutzen Sie Tastaturbefehle, "
+"um Kommandos schnell auszuführen, ohne Ihren Arbeitsfluss zu unterbrechen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:257
@@ -692,8 +686,8 @@ msgid ""
 "press Ctrl+F1:"
 msgstr ""
 "Sie können eine Liste der möglichen Tastaturbefehle in jedem KiCad Werkzeug "
-"einsehen indem Sie *_Hilfe -> Tastaturbefehle auflisten_* aufrufen oder wenn "
-"Sie einfach '?' eingeben."
+"einsehen, indem Sie *_Hilfe -> Tastaturbefehle auflisten_* aufrufen oder "
+"einfach Strg+F1 auf der Tastatur eingeben."
 
 #. type: Target for macro image
 #: getting_started_in_kicad.adoc:258
@@ -703,7 +697,6 @@ msgstr "images/de/gsik_hotkeys.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:262
-#, fuzzy
 #| msgid ""
 #| "You can edit the assignment of hotkeys, and import or export them, from "
 #| "the *_Preferences -> Hotkeys_* menu."
@@ -711,11 +704,8 @@ msgid ""
 "You can edit the assignment of hotkeys, and import or export them, from the "
 "*_Preferences -> Hotkeys Options_* menu."
 msgstr ""
-"Sie können die hinterlegten Zuordnungen der Tastaturbefehle ändern, diese "
-"importieren oder exportieren wenn Sie *_Einstellungen -> Tastaturbefehle_* "
-"aufrufen. Im Schaltplaneditor können die Tastaturbefehle im Menüpunkt "
-"*_Einstellungen -> Einstellungen des Schaltplaneditors -> Kontrollen_* "
-"geändert werden."
+"Sie können die Zuordnungen der Tastaturbefehle ändern und importieren oder "
+"exportieren wenn Sie *_Einstellungen -> Tastaturbefehle_* aufrufen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:265
@@ -723,7 +713,7 @@ msgid ""
 "In this document, hotkeys are expressed with brackets like this: [a].  If "
 "you see [a], just type the \"a\" key on the keyboard."
 msgstr ""
-"In diesem Dokument sind Tastaturbefehle mit eckigen Klammern eingefasst wie "
+"In diesem Dokument sind Tastaturbefehle in eckigen Klammern eingefasst wie "
 "zum Beispiel [a]. Wenn Sie im hier Dokument [a] sehen dann betätigen Sie das "
 "Zeichen \"a\" auf der Tastatur."
 
@@ -737,8 +727,8 @@ msgstr "Beispiel"
 #: getting_started_in_kicad.adoc:268
 msgid "Consider the simple example of adding a wire in a schematic."
 msgstr ""
-"Betrachten wir das einfache Beispiel eines Hinzufügen einer elektrischen "
-"Verbindung in einem Schaltplan."
+"Betrachten wir das einfache Beispiel, eine elektrische Verbindung in "
+"einem Schaltplan hinzuzufügen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:272
@@ -748,9 +738,9 @@ msgid ""
 "start location to begin drawing the wire."
 msgstr ""
 "Wenn Sie ein Tastaturkürzel für das Kommando \"Elektrische Verbindung\" "
-"benutzen wollen betätigen Sie z.B. \"Umschalt+W\", beachten Sie wie der "
-"Cursor sich ändert. Als nächstes klicken Sie an der Stelle mit der linken "
-"Maustaste an der der Startpunkt der Verbindung liegen soll."
+"benutzen wollen, betätigen Sie \"Umschalt + W\" (beachten Sie, wie der "
+"Cursor sich verändert). Als nächstes klicken Sie mit der linken Maustaste "
+"auf die Stelle, an der der Startpunkt der Verbindung liegen soll."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:275
@@ -758,9 +748,8 @@ msgid ""
 "With a hotkey, simply press [w] and the wire will immediately start from the "
 "current cursor location."
 msgstr ""
-"Im Gegensatz dazu der Tastaturbefehl, wenn Sie [w] betätigen wird die "
-"Elektrische Verbindung umgehend an der Cursorposition gestartet an dem sich "
-"die Maus aktuell befindet."
+"Bei einem Tastaturbefehl drücken Sie einfach [w] und die elektrische Verbindung "
+"wird umgehend an der Cursorposition gestartet, an dem sich die Maus aktuell befindet."
 
 #. type: Title ==
 #: getting_started_in_kicad.adoc:277
@@ -774,7 +763,7 @@ msgid ""
 "In this section we are going to learn how to draw an electronic schematic "
 "using KiCad."
 msgstr ""
-"In diesem Abschnitt werden Sie lernen wie man einen elektronischen "
+"In diesem Abschnitt werden Sie lernen, wie man einen elektronischen "
 "Schaltplan mit KiCad zeichnet."
 
 #. type: Title ===
@@ -793,14 +782,13 @@ msgid ""
 "__Bitmap2Component__, __PCB Calculator__ and __Pl Editor__. Refer to the "
 "work-flow chart to give you an idea how the main tools are used."
 msgstr ""
-"Unter Windows starten Sie kicad.exe. In einem Linuxsystem rufen Sie KiCad "
-"per Menü auf, oder Sie führen Sie 'kicad' in einem Terminal aus. Daraufhin "
-"befinden Sie sich nun im Hauptfenster vom KiCad Projektmanager. Von hier aus "
-"haben Sie Zugriff auf die acht eigenständigen Softwaretools: __Eeschema__, "
-"__Bauteileditor__, __Pcbnew__, __PCB Footprint Editor__, __GerbView__, "
-"__Bitmap2Component__, __PCB Kalkulator__ und __Pl Editor__. Es sei nochmal "
-"auf das Schema des KiCad Arbeitsablauf verwiesen um zu verstehen wie die "
-"Tools benutzt werden."
+"Unter Windows starten Sie kicad.exe. In einem Linux-System rufen Sie KiCad "
+"über das Programmmenü auf oder führen Sie den Befehl 'kicad' in einem "
+"Terminal-Fenster aus. Sie befinden sich nun im Hauptfenster des KiCad Projektmanager. "
+"Von hier aus haben Sie Zugriff auf die acht eigenständigen Software-Werkzeuge: __Schaltplaneditor__, "
+"__Symbol Bibliothekseditor__, __PCB Layout Editor__, __Footprint Bibliothekseditor__, __Betrachter für Gerberdaten__, "
+"__Bitmap importieren__, __Kalkulationswerkzeuge__ und __Editor für Schaltplanlayouts__. Es sei nochmal "
+"auf das Schema des KiCad Arbeitsablauf verwiesen, um zu verstehen, wie die Tools benutzt werden."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:293
@@ -816,7 +804,6 @@ msgstr "images/de/kicad_main_window.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:301
-#, fuzzy
 #| msgid ""
 #| "Create a new project: *File* -> **New Project** -> **New Project**.  Name "
 #| "the project file 'tutorial1'. The project file will automatically take "
@@ -830,11 +817,11 @@ msgid ""
 "unless you already have a dedicated directory.  All your project files will "
 "be saved there."
 msgstr ""
-"Erstellen Sie ein neues Projekt: *Datei* -> **Neues Projekt** -> **Neues "
-"Projekt**. Benennen Sie die Projektdatei 'tutorial1'. Die Projektdatei wird "
-"automatisch um die Erweiterung \".pro\" ergänzt. KiCad wird nach einem "
-"zugehörigen Ordner für das Projekt fragen, bestätigen Sie diese Frage mit "
-"\"Ja\". Alle zugehörigen Projektdateien werden in diesem Ordner gespeichert."
+"Erstellen Sie ein neues Projekt: *Datei* -> **Neu** -> **Projekt...**. Nennen "
+"Sie das Projekt 'tutorial1'. Die Projektdatei wird automatisch um die Erweiterung "
+"\".pro\" ergänzt. Die genaue Ansicht des Dialogs hängt von der verwendeten Plattform ab, "
+"aber es sollte ein Ankreuzfeld geben, um ein neues Verzeichnis für das Projekt zu erstellen. "
+"Bei Auswahl werden alle zugehörigen Projektdateien in diesem Ordner gespeichert."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:305
@@ -849,7 +836,6 @@ msgstr ""
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:314
-#, fuzzy
 #| msgid ""
 #| "Click on the 'Page Settings' icon image:images/icons/sheetset.png[Sheet "
 #| "settings icon] on the top toolbar. Set the Page Size as 'A4' and enter "
@@ -867,16 +853,15 @@ msgid ""
 "Use the mouse wheel to zoom in.  Save the whole schematic: *File* -> **Save**"
 msgstr ""
 "Klicken Sie auf das Icon 'Seite einrichten' image:images/icons/sheetset."
-"png[Seite einrichten] in der Toolbar. Setzen Sie die Seitengröße auf 'A4' "
-"und geben Sie als Titel 'Tutorial1' ein. Wenn nötig können noch mehr "
-"Informationen eingeben werden. Betätigen Sie OK. Die Informationen werden im "
-"Schaltplan in der unteren rechten Ecke eingefügt. Benutzen Sie das Mausrad "
-"um in das Blatt hinein zu zoomen. Speichern Sie das gesamte Projekt: *Datei* "
-"-> **Schaltplanprojekt sichern**"
+"png[Seite einrichten] in der oberen Werkzeugleiste. Wählen Sie eine angemessene "
+"Papiergröße ('A4 210x297mm', 'A 8.5x11', etc.) und geben Sie als Titel 'Tutorial1' ein. "
+"Wie Sie sehen, können hier bei Bedarf noch mehr Informationen eingeben werden. "
+"Klicken Sie auf OK. Diese Informationen werden im Schaltplan in der unteren rechten "
+"Ecke eingefügt. Benutzen Sie das Mausrad, um in das Schema hinein zu zoomen. "
+"Speichern Sie das gesamte Projekt: *Datei* -> **Speichern**"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:318
-#, fuzzy
 #| msgid ""
 #| "We will now place our first component. Click on the 'Place component' "
 #| "icon image:images/icons/add_component.png[Add component Icon] in the "
@@ -887,13 +872,12 @@ msgid ""
 "toolbar. You may also press the 'Add Symbol' hotkey [a]."
 msgstr ""
 "Wir werden nun das erste Bauteil platzieren. Klicken Sie auf das Icon "
-"'Bauteil hinzufügen' image:images/icons/add_component.png[Bauteil "
-"hinzufügen] in der rechten Toolbar. Die selbe Funktion erreichen Sie auch "
-"wenn Sie den Tastaturbefehl [a] für 'Bauteil hinzufügen' benutzen."
+"'Bauteil einfügen' image:images/icons/add_component.png[Bauteil "
+"einfügen] in der rechten Werkzeugleiste. Sie können stattdessen "
+"auch den Tastaturbefehl [a] für 'Bauteil einfügen' benutzen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:326
-#, fuzzy
 #| msgid ""
 #| "Click on the middle of your schematic sheet. A __Choose Component__ "
 #| "window will appear on the screen.  We're going to place a resistor. "
@@ -908,12 +892,12 @@ msgid ""
 "Resistor. This 'Device' heading is the name of the library where the "
 "component is located, which is quite a generic and useful library."
 msgstr ""
-"Klicken Sie in die Mitte vom Schaltplan. Ein __Bauteilauswahl__ Fenster wird "
-"sich öffnen. Wir werden einen Resistor (Widerstand) hinzufügen. Im "
-"Filterfeld geben Sie 'R' ein für **R**esistor. Sie werden den Titel 'device' "
-"über dem Resistor bemerken. Dieser Titel 'device' ist der Name der "
-"Bibliothek in dem das Bauteil zu finden ist, welche eine generische und "
-"nützliche Bibliothek ist."
+"Klicken Sie in die Mitte Ihres Schaltplans. Ein __Symbolauswahl__ Fenster wird "
+"sich öffnen. Wir werden nun einen Widerstand (Resistor) hinzufügen. Geben Sie im "
+"Suchen-Feld 'R' ein für **R**esistor. Sie werden die Überschrift 'Device' "
+"über dem Resistor bemerken. Diese Überschrift 'Device' ist der Name der "
+"Bibliothek, in der das Bauteil zu finden ist. Es handelt sich hierbei um eine "
+"sehr allgemeine und nützliche Bibliothek."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:327
@@ -929,7 +913,6 @@ msgstr "images/de/choose_component.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:332
-#, fuzzy
 #| msgid ""
 #| "Double click on it. This will close the 'Choose Component' window.  Place "
 #| "the component in the schematic sheet by clicking where you want it to be."
@@ -937,9 +920,9 @@ msgid ""
 "Double click on it. This will close the 'Choose Symbol' window.  Place the "
 "component in the schematic sheet by clicking where you want it to be."
 msgstr ""
-"Klicken Sie doppelt auf die Auswahl. Das wird das Fenster 'Bauteilauswahl' "
-"schließen. Platzieren Sie das Bauteil im Schaltplan indem Sie an die Stelle "
-"klicken wo es eingefügt werden soll."
+"Klicken Sie doppelt auf die Auswahl. Das wird das Fenster 'Symbolauswahl' "
+"schließen. Platzieren Sie das Bauteil im Schaltplan, indem Sie an die Stelle "
+"klicken, wo es eingefügt werden soll."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:336
@@ -948,9 +931,9 @@ msgid ""
 "the mouse wheel to zoom in and zoom out. Press the wheel (central)  mouse "
 "button to pan horizontally and vertically."
 msgstr ""
-"Klicken Sie auf das Lupensymbol um in das Bauteil hinein zu zoomen. "
-"Alternativ benutzen Sie das Mausrad um hinein oder heraus zu zoomen. Drücken "
-"und halten Sie das Mausrad fest während Sie die Maus bewegen um dann das "
+"Klicken Sie auf das Lupensymbol, um auf das Bauteil hinein zu zoomen. "
+"Alternativ können Sie mit dem Mausrad hinein oder heraus zoomen. Drücken "
+"und halten Sie das Mausrad fest, während Sie die Maus bewegen, um dann das "
 "Arbeitsblatt horizontal und vertikal zu verschieben."
 
 #. type: Plain text
@@ -960,13 +943,12 @@ msgid ""
 "should rotate. You do not need to actually click on the component to rotate "
 "it."
 msgstr ""
-"Bewegen Sie den Mauszeiger über das Bauteil 'R' und betätigen die Taste [r]. "
-"Das Bauteil sollte rotierten. Sie müssen nicht auf das Bauteil klicken um "
-"dieses zu rotieren."
+"Bewegen Sie den Mauszeiger über das Bauteil 'R' und betätigen Sie die Taste [r]. "
+"Das Bauteil sollte sich drehen. Sie müssen dabei nicht auf das Bauteil klicken, um "
+"es zu drehen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:345
-#, fuzzy
 #| msgid ""
 #| "If your mouse was also over the _Field Reference_ ('R') or the _Field "
 #| "Value_ ('R?'), a menu will appear. You will see the 'Clarify Selection' "
@@ -979,16 +961,14 @@ msgid ""
 "objects that are on top of each other. In this case, tell KiCad you want to "
 "perform the action on the 'Symbol ...R...' if the menu appears."
 msgstr ""
-"Wenn Ihre Maus gleichzeitig über dem _Feld Referenz_ ('R') oder dem _Feld "
-"Wert_ ('R?') war wird ein Menü 'Klarstellung der Auswahl' erscheinen. Sie "
-"werden das Menü 'Klarstellung der Auswahl' oft in KiCad sehen, dieses "
-"erlaubt das Arbeiten an Objekten die aufeinander liegen. In diesem Fall hier "
-"sagen Sie KiCad das Sie die Aktion auf das 'Bauteil ...R...' ausführen "
-"wollen."
+"Manchmal, wenn Ihre Maus gleichzeitig über dem mehreren Elementen liegt, "
+"wird ein Menü 'Auswahl klarstellen' erscheinen. Sie werden das Menü "
+"'Auswahl klarstellen' oft in KiCad sehen; es erlaubt das Arbeiten an Objekten, "
+"die übereinander liegen. In einem solchen Fall sagen Sie KiCad, dass Sie die Aktion "
+"auf das 'Bauteil ...R...' ausführen wollen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:351
-#, fuzzy
 #| msgid ""
 #| "Right click in the middle of the component and select *Edit Component* -> "
 #| "**Value**. You can achieve the same result by hovering over the component "
@@ -1002,12 +982,12 @@ msgid ""
 "Properties window. Notice how the right-click menu below shows the hotkeys "
 "for all available actions."
 msgstr ""
-"Klicken Sie mit der rechten Maustaste auf das Bauteil und wählen *Bauteil "
-"editieren* -> **Wert**. Sie erreichen das gleiche Ergebnis wenn sie den "
-"Mauszeiger auf das Bauteil bewegen und die Taste [v] betätigen oder "
-"alternativ die Taste [e] benutzen um mehrere generelle Werte zu ändern. "
-"Beachten Sie die beim Rechts Klick zu sehenden Buchstaben der "
-"Tastaturbefehle."
+"Klicken Sie mit der rechten Maustaste in die Mitte des Bauteils und wählen Sie "
+"*Eigenschaften* -> **Wert editieren...** Sie erreichen das gleiche Ergebnis, "
+"wenn sie den Mauszeiger auf das Bauteil bewegen und die Taste [v] betätigen. "
+"Alternativ bringt Sie die Taste [e] zu einem allgemeineren Eigenschaftenfenster. "
+"Beachten Sie, wie das Rechtsklick-Menü die Tastaturbefehle aller verfügbaren "
+"Aktionen anzeigt."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:352
@@ -1024,7 +1004,6 @@ msgstr "images/de/edit_component_dropdown.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:356
-#, fuzzy
 #| msgid ""
 #| "The Component value window will appear. Replace the current value 'R' "
 #| "with '1 k'. Click OK."
@@ -1032,12 +1011,11 @@ msgid ""
 "The Edit Value Field window will appear. Replace the current value 'R' with "
 "'1 k'. Click OK."
 msgstr ""
-"Das Feld 'Wert editieren' Fenster wird erscheinen. Verändern Sie den "
-"aktuellen Wert 'R' mit '1k' und bestätigen mit OK."
+"Das 'Feld Wert editieren' Fenster wird erscheinen. Ersetzen Sie den "
+"aktuellen Wert 'R' mit '1k'. Klicken Sie auf OK."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:359
-#, fuzzy
 #| msgid ""
 #| "Do not change the Reference field (R?), this will be done automatically "
 #| "later on. The value inside the resistor should now be '1 k'."
@@ -1062,7 +1040,6 @@ msgstr "images/resistor_value.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:364
-#, fuzzy
 #| msgid ""
 #| "To place another resistor, simply click where you want the resistor to "
 #| "appear. The Component Selection window will appear again."
@@ -1070,9 +1047,8 @@ msgid ""
 "To place another resistor, simply click where you want the resistor to "
 "appear. The symbol selection window will appear again."
 msgstr ""
-"Um einen weiteren Widerstand zu platzieren klicken Sie einfach an der Stelle "
-"im Schaltplan wo der Widerstand abgelegt werden soll. Das Fenster "
-"'Bauteilauswahl' wird wieder geöffnet."
+"Um einen weiteren Widerstand zu platzieren, klicken Sie einfach auf die Stelle, "
+"wo der Widerstand angezeigt soll. Das Fenster 'Symbolauswahl' wird wieder geöffnet."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:367
@@ -1080,8 +1056,8 @@ msgid ""
 "The resistor you previously chose is now in your history list, appearing as "
 "'R'. Click OK and place the component."
 msgstr ""
-"Der Widerstand der zuvor ausgewählt worden ist wird nun in der Historie als "
-"'R' angezeigt. Betätigen Sie OK und platzieren das Bauteil."
+"Der Widerstand, der zuvor ausgewählt worden ist, wird nun in der Historie als "
+"'R' angezeigt. Klicken Sie OK und platzieren das Bauteil."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:368
@@ -1098,7 +1074,6 @@ msgstr "images/de/component_history.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:374
-#, fuzzy
 #| msgid ""
 #| "In case you make a mistake and want to delete a component, right click on "
 #| "the component and click 'Delete Component'. This will remove the "
@@ -1110,10 +1085,10 @@ msgid ""
 "schematic. Alternatively, you can hover over the component you want to "
 "delete and press [Delete]."
 msgstr ""
-"Im Fall das ein Fehler gemacht worden ist und das Bauteil wieder gelöscht "
-"werden soll genügt ein Rechts Klick auf das Bauteil und ein Anklicken von "
-"'Bauteil entfernen'. Dies löscht das Bauteil vom Schaltplan. Oder man bewegt "
-"den Mauszeiger über das Bauteil und betätigt die [Entf] Taste."
+"In dem Fall, dass Sie ein Fehler gemacht haben und das Bauteil wieder löschen "
+"wollen, rechtsklicken Sie auf das Bauteil und klicken Sie auf 'Entfernen'. "
+"Dies löscht das Bauteil vom Schaltplan. Alternativ können Sie "
+"den Mauszeiger über das Bauteil bewegen und die [Entf] Taste drücken."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:378
@@ -1122,14 +1097,13 @@ msgid ""
 "hovering over it and pressing [c]. Click where you want to place the new "
 "duplicated component."
 msgstr ""
-"Ein schon vorhandenes Bauteil im Schaltplan kann einfach dupliziert werden "
-"in dem man den Cursor über das zu kopierende Bauteil bewegt und dann den "
-"Buchstaben [c] betätigt. Klicken Sie mit linken Maustaste an der Stelle wo "
-"das zu duplizierende Bauteil eingefügt werden soll."
+"Ein schon vorhandenes Bauteil im Schaltplan kann einfach dupliziert werden, "
+"indem man den Cursor über das zu kopierende Bauteil bewegt und dann den "
+"Buchstaben [c] betätigt. Klicken Sie mit linken Maustaste auf die Stelle, wo "
+"das neue duplizierte Bauteil platziert werden soll."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:384
-#, fuzzy
 #| msgid ""
 #| "Right click on the second resistor. Select 'Drag Component'.  Reposition "
 #| "the component and left click to drop. The same functionality can be "
@@ -1142,15 +1116,16 @@ msgid ""
 "over the component and by pressing [g].  [r] will rotate the component while "
 "[x] and [y] will flip it about its x- or y-axis."
 msgstr ""
-"Machen Sie einen Klick mit der rechten Maustaste auf den zweiten Widerstand "
-"und wählen Sie 'Bauteil ziehen'. Repositionieren Sie das Bauteil und klicken "
-"an der gewünschten Stelle zum fixieren. Mit dem Cursor über dem Bauteil und "
-"der Taste [g] kann das Gleiche erreicht werden. Die Taste [r] wird das "
-"Bauteil rotieren. Die Tasten [x] und [y] spiegeln das Bauteil."
+"Klicken Sie mit der rechten Maustaste auf den zweiten Widerstand. "
+"Wählen Sie 'Ziehen'. Positionieren Sie das Bauteil neu und klicken "
+"Sie mit der linke Maustaste, um es abzulegen. Dieselbe Funktion kann erreicht "
+"werden, indem Sie den Cursor über das Bauteil bewegen und [g] drücken. "
+"Die Taste [r] dreht das Bauteil während die Tasten [x] und [y] das Bauteil an "
+"seiner X- bzw. Y-Achse spiegeln."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:388
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "*Right-Click* -> *Move component* or [m] is also a valuable option\n"
 #| "for moving anything around, but it is better to use this only for component\n"
@@ -1159,7 +1134,10 @@ msgid ""
 "*Right-Click* -> *Move* or [m] is also a valuable option\n"
 "for moving anything around, but it is better to use this only for component\n"
 "labels and components yet to be connected. We will see later on why this is the case.\n"
-msgstr "*Rechts Klick* -> *Bauteil bewegen* (äquivalente Option zur Taste [m]) ist ebenfalls eine mögliche Variante um etwas zu bewegen, aber es ist besser dies nur für Bauteilbeschriftungen und Bauteile zu benutzen die noch nicht mit elektrischen Verbindungen verbunden sind. Wir werden später sehen warum dies der Fall ist.\n"
+msgstr ""
+"*Rechts Klick* -> *Verschieben* oder [m] ist ebenfalls eine Möglichkeit, um etwas zu "
+"bewegen, aber es ist besser, dies nur für Bauteil-Beschriftungen und Bauteile zu "
+"benutzen, die noch nicht verbunden sind. Wir werden später sehen, warum dies der Fall ist.\n"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:391
@@ -1167,13 +1145,12 @@ msgid ""
 "Edit the second resistor by hovering over it and pressing [v]. Replace 'R' "
 "with '100'. You can undo any of your editing actions with Ctrl+Z."
 msgstr ""
-"Bewegen Sie den Mauscursor über den zweiten Widerstand und betätigen Sie die "
-"Taste [v]. Ändern Sie 'R' zu '100'. Sie können jede Veränderung mit der "
-"Kombination 'Strg+z' rückgängig machen."
+"Bearbeiten Sie den zweiten Widerstand, indem Sie den Mauscursor über ihn bewegen und "
+"die Taste [v] drücken. Ändern Sie 'R' zu '100'. Sie können jede Ihrer Änderungen mit der "
+"Tastenkombination 'Strg + Z' rückgängig machen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:397
-#, fuzzy
 #| msgid ""
 #| "Change the grid size. You have probably noticed that on the schematic "
 #| "sheet all components are snapped onto a large pitch grid. You can easily "
@@ -1186,10 +1163,10 @@ msgid ""
 "the size of the grid by *Right-Click* -> **Grid**.  __In general, it is "
 "recommended to use a grid of 50.0 mils for the schematic sheet__."
 msgstr ""
-"Verändern Sie nun die Rastergröße. Wie Sie wohl bemerkt haben werden alle "
+"Verändern Sie nun die Rastergröße. Wie Sie vielleicht bemerkt haben, werden alle "
 "Bauteile auf dem Schaltplan an einem großen Raster ausgerichtet. Sie können "
-"die Rastergröße einfach durch *Rechts Klick* -> **Rasterauswahl** verändern. "
-"__Im Allgemeinen ist es empfehlenswert ein Rastermaß von 50.0 mils für "
+"die Rastergröße einfach durch *Rechts Klick* -> **Raster** verändern. "
+"__Im Allgemeinen ist es empfehlenswert, ein Rastermaß von 50.0 mils für "
 "Schaltpläne zu verwenden.__"
 
 #. type: Plain text
@@ -1204,10 +1181,19 @@ msgid ""
 "it's not yet available, you can add it to either one of the sym-lib-table "
 "files.  For practice we will now add a library which already is available."
 msgstr ""
+"Wir werden jetzt ein Bauteil hinzufügen von einer Bibliothek, die nicht im "
+"Standardprojekt konfiguriert ist. Wählen Sie im Menü *Einstellungen" -> "
+"**Verwalten Symbolbibliotheken**. Im Fenster Bauteilsymbolbibliotheken können "
+"Sie zwei Karteireiter sehen: Globale Bibliotheken und Projektspezifische "
+"Bibliotheken. Jeder davon besitzt eine sym-lib-table Datei. Damit eine Bibliothek "
+"(.lib Datei) verfügbar wird, muss sie in einer dieser sym-lin-table Dateien "
+"enthalten sein. Wenn Sie eine Bibliotheksdatei in Ihrem Dateisystem haben und "
+"diese noch nicht verfügbar ist, können Sie sie zu einer dieser sym-lin-table Dateien "
+"hinzufügen. Zur Übung werden wir jetzt eine Bibliothek hinzufügen, die bereits "
+"verfügbar ist."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:417
-#, fuzzy
 #| msgid ""
 #| "You need to find where the official KiCad libraries are installed on your "
 #| "computer. Look for a `library` directory containing a hundred of `.dcm` "
@@ -1226,16 +1212,18 @@ msgid ""
 "change it to 'microchip_pic12mcu'.  Close the Symbol Libraries window with "
 "OK."
 msgstr ""
-"Sie müssen wissen wo die offiziellen KiCad Bibliotheken auf Ihrem Computer "
-"installiert sind. Suchen Sie nach einem `library` Ordner der Hunderte von `*."
-"dcm` und `*.lib` Dateien enthält. Suchen Sie unter Windows in `C:\\Program "
-"Files (x86)\\KiCad\\share\\` und unter Linux in `/usr/share/kicad/library/`. "
-"Wenn Sie den Ordner gefunden haben wählen Sie 'microchip_pic12mcu' als "
-"Bibliothek aus und schließen das Fenster."
+"Wählen Sie den Reiter Globale Bibliotheken. Klicken Sie auf 'Bibliotheken ansehen...', "
+"um den Dateibrowser zu öffnen. Sie müssen herausfinden, wo die offiziellen KiCad "
+"Bibliotheken auf Ihrem Computer installiert sind. Suchen Sie nach einem `library` "
+"Ordner, der Hunderte von `*.dcm` und `*.lib` Dateien enthält. Suchen Sie unter "
+"Windows in `C:\\Program Files (x86)\\KiCad\\share\\kicad\\library` und unter Linux in "
+"`/usr/share/kicad/library/`. Wenn Sie den Ordner gefunden haben, wählen Sie die "
+"'MCU_Microchip_PIC12.lib' Bibliothek und schließen Sie das Fenster. Nun klicken "
+"Sie auf den Nickname der Bibliothek und ändern Sie ihn in 'microchip_pic12mcu'. "
+"Schließen das Fenster Bauteilsymbolbibliotheken mit OK."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:421
-#, fuzzy
 #| msgid ""
 #| "Repeat the add-component steps, however this time select the "
 #| "'microchip_pic12mcu' library instead of the 'device' library and pick the "
@@ -1245,13 +1233,12 @@ msgid ""
 "'microchip_pic12mcu' library instead of the 'Device' library and pick the "
 "'PIC12C508A-ISN' component."
 msgstr ""
-"Wiederholen Sie die Schritte des Hinzufügens, dieses mal wählen Sie die "
-"Bibliothek 'microchip_pic12mcu' statt 'device' aus und wählen das Bauteil  "
-"'PIC12C508A-I/SN' aus."
+"Wiederholen Sie die Schritte zum Hinzufügen eines Bauteils, dieses Mal wählen Sie die "
+"Bibliothek 'microchip_pic12mcu' statt 'Device' und wählen das Bauteil "
+"'PIC12C508A-ISN' aus."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:425
-#, fuzzy
 #| msgid ""
 #| "Hover the mouse over the microcontroller component. Notice that [x] and "
 #| "[y] again flip the component. Return the component to its original "
@@ -1261,14 +1248,12 @@ msgid ""
 "again flip the component. Keep the symbol mirrored around the Y axis so that "
 "the pins G0 and G1 point to right."
 msgstr ""
-"Bewegen Sie die Maus über das Mikrocontroller Bauteil. Betätigen Sie die "
-"Taste [y] oder [x], das Bauteil wird in der Y-Achse oder X-Achse gespiegelt. "
-"Betätigen Sie die Taste ein zweites Mal und das Bauteil wird in die "
-"ursprüngliche Ausrichtung zurück gedreht."
+"Bewegen Sie die Maus über das Mikrocontroller Bauteil. Beachten Sie, dass die Tasten "
+"[x] und [y] auch dieses Bauteil spiegeln. Spiegeln Sie das Bauteil-Symbol an der Y-Achse, "
+"so dass die Pins G0 und G1 nach rechts zeigen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:428
-#, fuzzy
 #| msgid ""
 #| "Repeat the add-component steps, this time choosing the 'device' library "
 #| "and picking the 'LED' component from it."
@@ -1276,15 +1261,14 @@ msgid ""
 "Repeat the add-component steps, this time choosing the 'Device' library and "
 "picking the 'LED' component from it."
 msgstr ""
-"Wiederholen Sie die Schritte des Hinzufügens, dieses mal wählen Sie aus der "
+"Wiederholen Sie die Schritte des Hinzufügens, dieses Mal wählen Sie aus der "
 "'device' Bibliothek das 'LED' Bauteil aus."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:430
 msgid "Organise all components on your schematic sheet as shown below."
 msgstr ""
-"Alle Bauteile in Deinem Schaltplan sollten in etwa wie folgend organisiert "
-"sein."
+"Platzieren Sie all Bauteile in Ihrem Schaltplan wie unten gezeigt."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:431
@@ -1308,11 +1292,10 @@ msgid ""
 "component from scratch and then return to this section to continue with the "
 "board."
 msgstr ""
-"Wir müssen nun die Bauteil Komponente 'MYCONN3' für unseren 3-fach Konnektor "
+"Wir müssen nun die Bauteil Komponente 'MYCONN3' für unseren 3-Pin Konnektor "
 "erstellen. Sie können zur Sektion <<make-schematic-components-in-kicad,"
-"Erstellen von Bauteilen in Kicad>> springen um zu lernen wie man dieses "
-"Bauteil von Beginn an erstellt um danach wieder zu dieser Sektion zurück zu "
-"kehren."
+"Erstellen von Bauteilen in Kicad>> springen, um zu lernen, wie man dieses "
+"Bauteil von Beginn an erstellt und danach wieder zu diesem Abschnitt zurückzukehren."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:441
@@ -1320,8 +1303,8 @@ msgid ""
 "You can now place the freshly made component. Press [a] and pick the "
 "'MYCONN3' component in the 'myLib' library."
 msgstr ""
-"Sie können nun das eben erstellte Bauteil einfügen. Betätigen Sie die Taste "
-"[a] und wählen das Bauteil 'MYCONN3' aus der 'myLib' Bibliothek."
+"Sie können nun das frisch erstellte Bauteil einfügen. Betätigen Sie die Taste "
+"[a] und wählen Sie das Bauteil 'MYCONN3' aus der 'myLib' Bibliothek."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:447
@@ -1333,11 +1316,11 @@ msgid ""
 "be moved around as many times as you please."
 msgstr ""
 "Die Bauteil Kennung 'J?' erscheint unter dem 'MYCONN3' Label. Wenn Sie "
-"dessen Position verändern wollen führen Sie einen Rechtsklick auf 'J?' aus "
-"und wählen 'Referenz verschieben' (oder benutzen äquivalent die Taste [m]). "
-"Es ist möglich das Sie zuvor/während dessen in das Bauteil hinein zoomen "
-"müssen. Verschieben Sie 'J?' wie unten zu sehen. Labels können jederzeit und "
-"immer wieder verschoben werden."
+"dessen Position verändern wollen, klicken Sie mit der rechten Maustaste "
+"auf 'J?' und wählen Sie 'Referenz verschieben' (äquivalent zur Taste [m]). "
+"Es kann hilfreich sein, zuvor/währenddessen auf das Bauteil hinein zoomen. "
+"Verschieben Sie 'J?' unter das Bauteil wie unten zu sehen. Labels können "
+"so oft verschoben werden, wie Sie möchten."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:448
@@ -1354,7 +1337,6 @@ msgstr "images/gsik_myconn3_s.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:455
-#, fuzzy
 #| msgid ""
 #| "It is time to place the power and ground symbols. Click on the 'Place a "
 #| "power port' button image:images/icons/add_power.png[add_power_png] on the "
@@ -1366,16 +1348,15 @@ msgid ""
 "toolbar. Alternatively, press [p]. In the component selection window, scroll "
 "down and select 'VCC' from the 'power' library.  Click OK."
 msgstr ""
-"Es ist nun an der Zeit Spannungs- und Groundsymbole zu platzieren. Klicken "
+"Es ist an der Zeit, Spannungs- und Masse-Symbole zu platzieren. Klicken "
 "Sie auf das Icon 'Spannungsquelle hinzufügen' image:images/icons/add_power."
-"png[Spannungsquelle hinzufügen] in der rechten Toolbar. Oder alternativ "
-"betätigen Sie die Taste [p]. Im Fenster der Bauteilauswahl scrollen Sie in "
-"der Liste der 'power' Bibliothek nach unten bis zum Eintrag 'VCC'. "
-"Bestätigen Sie die Auswahl mit dem OK Button."
+"png[Spannungsquelle hinzufügen] in der rechten Werkzeugleiste oder "
+"betätigen Sie die Taste [p]. Scrollen Sie im Fenster der Bauteilauswahl in "
+"der Liste der 'power' Bibliothek nach unten und wählen Sie den Eintrag 'VCC'. "
+"Klicken Sie OK."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:461
-#, fuzzy
 #| msgid ""
 #| "Click above the pin of the 1 k resistor to place the VCC part. Click on "
 #| "the area above the microcontroller 'VDD'. In the 'Component Selection "
@@ -1388,16 +1369,15 @@ msgid ""
 "process again and place a VCC part above the VCC pin of 'MYCONN3'. Move "
 "references and values out of the way if needed."
 msgstr ""
-"Klicken Sie oberhalb vom 1k Widerstand um das VCC Symbol einzufügen. Klicken "
-"Sie nun oberhalb des 'VDD' Pins vom Mikrocontrollers um ein weiteres "
-"Spannungssymbol hinzuzufügen. Wählen Sie in der Historie der Bauteilauswahl "
-"auf 'VCC' und platzieren Sie dieses Bauteil in der Nähe vom 'VDD' Pin. "
-"Wiederholen Sie den Prozess und platzieren das VCC Symbol über dem VCC Pin "
-"von 'MYCONN3'."
+"Klicken Sie oberhalb vom 1k Widerstand, um das VCC Symbol zu platzieren. Klicken "
+"Sie in den Bereich oberhalb des 'VDD' Pins des Mikrocontrollers. "
+"Wählen Sie in der Historie der Bauteilauswahl 'VCC' und platzieren Sie das "
+"Bauteil neben den 'VDD' Pin. Wiederholen Sie den Hinzufügen-Prozess erneut "
+"und platzieren ein VCC Symbol über dem VCC Pin von 'MYCONN3'. Bewegen Sie "
+"Referenzen und Werte aus dem Weg, wenn nötig."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:466
-#, fuzzy
 #| msgid ""
 #| "Repeat the add-pin steps but this time select the GND part. Place a GND "
 #| "part under the GND pin of 'MYCONN3'. Place another GND symbol on the "
@@ -1409,11 +1389,10 @@ msgid ""
 "VSS pin of the microcontroller. Your schematic should now look something "
 "like this:"
 msgstr ""
-"Wiederholen Sie das Hinzufügen eines Spannungssymbol, allerdings wählen Sie "
-"nun bitte das GND Symbol. Platzieren Sie das GND Symbol unter den GND Pin "
-"von 'MYCONNN3'. Platzieren Sie ein weiteres GND Symbol auf der linken Seite "
-"vom Mikrocontroller in der Nähe vom VSS Pin. Ihr Schaltplan sollte nun "
-"ungefähr so aussehen:"
+"Wiederholen Sie das Hinzufügen eines Spannungssymbols, aber wählen Sie "
+"diesmal das GND Symbol. Platzieren Sie das GND Symbol unter den GND Pin "
+"von 'MYCONNN3'. Platzieren Sie ein weiteres GND Symbol links vom "
+"VSS Pin des Mikrocontrollers. Ihr Schaltplan sollte nun ungefähr so aussehen:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:467
@@ -1436,11 +1415,10 @@ msgid ""
 msgstr ""
 "Als nächstes werden wir alle Bauteile verbinden. Klicken Sie auf das Icon "
 "'Elektr. Verbindung hinzufügen' image:images/icons/add_line.png[Elektr. "
-"Verbindung hinzufügen] in der rechten Toolbar."
+"Verbindung hinzufügen] in der rechten Werkzeugleiste."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:477
-#, fuzzy
 #| msgid ""
 #| "Be careful not to pick 'Place a bus', which appears directly beneath this "
 #| "button but has thicker lines. The section <<bus-connections-in-kicad,Bus "
@@ -1450,14 +1428,13 @@ msgid ""
 "button but has thicker lines. The section <<bus-connections-in-kicad,Bus "
 "Connections in KiCad>> will explain how to use a bus section."
 msgstr ""
-"Seihen Sie achtsam und wählen nicht 'Einen Bus verlegen' aus, dies ist "
-"direkt unterhalb des Buttons hat aber eine dickere Linie. Die Sektion <<bus-"
-"connections-in-kicad,Bus Verbindungen in KiCad>> wird erklären wie man Busse "
-"verwaltet und benutzt."
+"Achten Sie darauf, nicht das Icon 'Einen Bus verlegen' zu wählen, welches "
+"sich direkt unterhalb dieses Buttons befindet, aber eine dickere Linie hat. "
+"Die Sektion <<bus-connections-in-kicad,Bus Verbindungen in KiCad>> wird erklären, "
+"wie man einen Bus benutzt."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:483
-#, fuzzy
 #| msgid ""
 #| "Click on the little circle at the end of pin 7 of the microcontroller and "
 #| "then click on the little circle on pin 2 of the LED.  You can zoom in "
@@ -1468,9 +1445,10 @@ msgid ""
 "are drawing the wire to create a corner.  You can zoom in while you are "
 "placing the connection."
 msgstr ""
-"Klicken Sie nun auf den kleinen Kreis am Ende von Pin 7 des Mikrocontrollers "
-"und klicken dann auf den kleinen Kreis am Pin 2 der LED. Sie können in die "
-"Bauteile wieder hinein zoomen während des Erstellens der Verbindungen."
+"Klicken Sie auf den kleinen Kreis am Ende von Pin 7 des Mikrocontrollers "
+"und klicken Sie dann auf den kleinen Kreis am Pin 2 der LED. Klicken Sie einmal "
+"während des Zeichnens, um eine Ecke zu erstellen. Sie können in die "
+"Bauteile wieder hinein zoomen, während Sie die Verbindung erstellen."
 
 # The step 24 seems wrong!
 #. type: Plain text
@@ -1480,11 +1458,11 @@ msgid ""
 "grab) and not [m] (to move). Using grab will keep the wires connected. "
 "Review step 24 in case you have forgotten how to move a component."
 msgstr ""
-"Wenn Sie verbundene Bauteile um positionieren wollen ist es wichtig das Sie "
-"die Taste [g] (Bauteil ziehen) benutzen und nicht die Taste [m] (Bauteil "
-"verschieben). Die Option 'Bauteil ziehen' hält die Bauteile verbunden. "
-"Betrachten Sie noch einmal den Schritt 24 wenn Sie vergessen haben wie "
-"Bauteile verschoben werden."
+"Wenn Sie verbundene Bauteile verschieben wollen, ist es wichtig das Sie "
+"die Taste [g] (\"grab\", zum Ziehen) benutzen und nicht die Taste [m] (\"move\", "
+"zum Verschieben). Die Option 'Bauteil ziehen' erhält die Verbindung. "
+"Betrachten Sie noch einmal den Schritt 16 für den Fall, dass Sie nicht mehr wissen, "
+"wie ein Bauteil verschoben wird."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:488
@@ -1507,11 +1485,11 @@ msgid ""
 "the wire should touch the bottom of the VCC symbol and the middle top of the "
 "GND symbol. See the screenshot below."
 msgstr ""
-"Wiederholen Sie diese Schritte und verbinden Sie alle Bauteile wie in der "
-"Grafik ersichtlich. Um eine Verbindung abzubrechen klicken Sie einfach "
-"doppelt. Wenn Sie die Symbole VCC und GND verbinden sollte die Verbindung "
-"vom unteren Ende des VCC Symbols ausgehen, respektive das obere Ende beim "
-"GND Symbol. Betrachten Sie den folgenden Screenshot."
+"Wiederholen Sie diesen Vorgang und verbinden Sie alle anderen Bauteile wie "
+"unten angezeigt. Um eine Verbindung abzubrechen klicken Sie einfach "
+"doppelt. Wenn Sie die Symbole VCC und GND verbinden, sollte die Verbindung "
+"vom unteren Ende des VCC Symbols ausgehen bzw. vom oberen Ende beim "
+"GND Symbol. Beachten Sie unten folgenden Screenshot."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:496
@@ -1528,7 +1506,6 @@ msgstr "images/gsik_tutorial1_040.png"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:502
-#, fuzzy
 #| msgid ""
 #| "We will now consider an alternative way of making a connection using "
 #| "labels. Pick a net labelling tool by clicking on the 'Place net name' "
@@ -1540,11 +1517,10 @@ msgid ""
 "images/icons/add_line_label.png[add_line_label_png] on the right toolbar. "
 "You can also use [l]."
 msgstr ""
-"Wir werden nun eine alternative Möglichkeit für Verbindungen durch Labels "
-"betrachten. Benutzen Sie dazu das Icon 'Netznamen - lokales Label "
-"hinzufügen' image:images/icons/add_line_label.png[Netznamen - lokales Label "
-"hinzufügen] in der rechten Toolbar. Sie können ebenfalls die Taste [l] "
-"benutzen."
+"Wir werden uns nun einen alternative Weg für Verbindungen durch Labels "
+"ansehen. Wählen Sie das Netzlabel-Werkzeug, indem Sie in der rechten "
+"Werkzeugleiste auf das Icon 'Netzlabel hinzufügen' image:images/icons/add_line_label.png[Netzlabel "
+"hinzufügen] klicken. Sie können auch die Taste [l] (für \"label\") benutzen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:505
@@ -1552,8 +1528,8 @@ msgid ""
 "Click in the middle of the wire connected to pin 6 of the microcontroller. "
 "Name this label 'INPUT'."
 msgstr ""
-"Klicken Sie in die Mitte der Verbindung zum Pin 6 vom Mikrocontroller. "
-"Benennen Sie dieses Label 'INPUT'."
+"Klicken Sie in die Mitte der Verbindung zum Pin 6 des Mikrocontrollers. "
+"Nennen Sie dieses Label 'INPUT'."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:514
@@ -1566,15 +1542,15 @@ msgid ""
 "place a label you do not necessarily need a wire, you can simply attach the "
 "label to a pin."
 msgstr ""
-"Wiederholen Sie die Prozedur und platzieren ein weiteres Label an der "
-"Verbindung auf der rechten Seite des 100 Ohm Widerstandes. Benennen Sie das "
-"Label ebenfalls 'INPUT'. Diese zwei Label (mit dem gleichen Namen) verbinden "
-"den Pin 6 vom Mikrocontroller mit dem 100 Ohm Widerstand virtuell "
-"(unsichtbar). Dies ist eine hilfreiche Technik um in komplexen Schaltungen, "
-"wo zahlreiche Verbindungslinien die Unübersichtlichkeit stark erhöhen "
-"würden, die Arbeit nicht unnötig anstrengend zu machen. Labels können nicht "
-"nur Verbindungen zugeordnet werden, es ist ebenfalls möglich einzelnen Pins "
-"ein Label zuzuweisen."
+"Wiederholen Sie den Vorgang und platzieren Sie ein weiteres Label an der "
+"Verbindung auf der rechten Seite des 100 Ohm Widerstandes. Benennen Sie es "
+"ebenfalls 'INPUT'. Da die zwei Labels denselben Namen haben, stellen sie"
+"eine unsichtbare Verbindung her zwischen dem Pin 6 des Mikrocontrollers "
+"und dem 100 Ohm Widerstand. Dies ist eine praktische Methode, um Verbindungen "
+"in komplexen Schaltungen herzustellen, bei denen das Zeichnen aller Verbindungslinien "
+"den gesamten Schaltplan chaotisch machen würde. Um ein Label zu platzieren, "
+"benötigt man nicht unbedingt eine Verbindung, Sie können ein Label auch einfach direkt "
+"einem Pin zuweisen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:520
@@ -1584,10 +1560,10 @@ msgid ""
 "between the resistor and the LED as 'LEDtoR'. Name the wire between "
 "'MYCONN3' and the resistor as 'INPUTtoR'."
 msgstr ""
-"Labels können ebenfalls benutzt werden mit dem Zweck einfach Informationen "
-"bei zusteuern. Erstellen Sie ein Label am Pin 7 vom PIC (Mikrocontroller). "
+"Labels können ebenfalls dazu benutzt werden, um Verbindungen einfach nur "
+"Informationen zuzuweisen. Erstellen Sie ein Label am Pin 7 vom PIC (Mikrocontroller). "
 "Benennen Sie die Verbindung zwischen dem Widerstand und der LED als 'LEDtoR' "
-"und die Verbindung zwischen 'MYCONN3' und dem Resitor als 'INPUTtoR'."
+"und die Verbindung zwischen 'MYCONN3' und dem Widerstand als 'INPUTtoR'."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:523
@@ -1596,12 +1572,13 @@ msgid ""
 "implied from the power objects they are connected to."
 msgstr ""
 "Sie müssen den Verbindungen von VCC und GND keine Labels zuordnen, diese "
-"Label sind schon von den Objekten der jeweiligen Spannungen impliziert."
+"werden schon von den Objekten der jeweiligen Spannungen definiert, mit denen "
+"sie verbunden sind."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:525
 msgid "Below you can see what the final result should look like."
-msgstr "Nachfolgend können Sie sehen wie das finale Ergebnis aussehen sollte."
+msgstr "Nachfolgend können Sie sehen, wie das endgültige Ergebnis aussehen sollte."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:526
@@ -1624,11 +1601,11 @@ msgid ""
 "can either instruct the program that the unconnected wires are deliberate or "
 "manually flag each unconnected wire or pin as unconnected."
 msgstr ""
-"Kommen wir nun zum Umgang mit nicht verbundenen Signalen. KiCad wird bei der "
-"Schaltplan Überprüfung für jeden Pin oder Leitung/Signal welche(s) nicht "
-"verbunden ist eine Fehlermeldung generieren. Um diese Fehlermeldungen zu "
-"vermeiden müssen wir KiCad bewusst mitteilen das diese nicht verbundenen "
-"Signale keine Fehler sind."
+"Kommen wir nun zum Umgang mit nicht verbundenen Leitungen. Jeder Pin und jede "
+"Leitung, die nicht verbunden ist, wird eine Warnung erzeugen bei der Überprüfung "
+"durch KiCad. Um diese Warnungen zu vermeiden, können Sie entweder das Programm anweisen, "
+"dass die unverbundenen Leitungen Absicht sind oder Sie können jede unverbundene Leitung/Pin "
+"manuell als unverbunden kennzeichnen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:538
@@ -1643,9 +1620,9 @@ msgid ""
 "appear to signify that the lack of a wire connection is intentional."
 msgstr ""
 "Klicken Sie auf das Icon 'Keine-Verbindung Symbol hinzufügen' image:images/"
-"icons/noconn.png[Keine Verbindung] in der rechten Toolbar. Klicken Sie auf "
+"icons/noconn.png[Keine Verbindung] in der rechten Werkzeugleiste. Klicken Sie auf "
 "die kleinen Kreise an den Pins 2, 3, 4 und 5. Ein 'X' erscheint daraufhin "
-"und signalisiert das dieses Element gewollt nicht verbunden ist."
+"und signalisiert, dass dieses Element gewollt nicht verbunden ist."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:539
@@ -1669,17 +1646,16 @@ msgid ""
 "automatically connected if VCC and GND naming is respected. Generally "
 "speaking, you should try not to make hidden power pins."
 msgstr ""
-"Einige Bauteile haben Pins zur Spannungsversorgung die unsichtbar sind. "
-"Diese können Sie aber sichtbar machen indem Sie auf das Icon 'Versteckte "
+"Einige Bauteile haben Pins zur Spannungsversorgung, die unsichtbar sind. "
+"Sie können diese sichtbar machen, indem Sie auf das Icon 'Versteckte "
 "Pins einblenden' image:images/icons/hidden_pin.png[Versteckte Pins "
-"einblenden] in der linken Toolbar klicken. Versteckte Spannungspins werden "
-"automatisch miteinander verbunden wenn es zugehörige gleich benannte Pins "
-"mit 'VCC' und 'GND' gibt. Allgemein gültig gesprochen sollten Sie versuchen "
+"einblenden] in der linken Werkzeugleiste klicken. Versteckte Spannungspins werden "
+"automatisch miteinander verbunden, wenn die Benennung mit VCC und GND "
+"berücksichtigt wird. Allgemein gesagt sollten Sie versuchen, "
 "keine versteckten Pins zur Spannungsversorgung zu erstellen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:552
-#, fuzzy
 #| msgid ""
 #| "It is now necessary to add a 'Power Flag' to indicate to KiCad that power "
 #| "comes in from somewhere. Press [a], select 'List All', double click on "
@@ -1691,11 +1667,10 @@ msgid ""
 "'power' library. Place two of them.  Connect them to a GND pin and to VCC as "
 "shown below."
 msgstr ""
-"Es ist jetzt nötig ein 'Power Flag' hinzuzufügen um KiCad mitzuteilen, dass "
-"die Spannungen von woanders kommen. Drücken Sie die Taste [a], wählen Sie in "
-"der Bibliothek 'power' das 'PWR_FLAG' Element. Platzieren Sie davon zwei "
-"Stück auf dem Schaltplan. Verbinden Sie diese mit 'GND' und 'VCC' wie in der "
-"folgenden Grafik zu sehen."
+"Es ist jetzt nötig, ein 'Power Flag' hinzuzufügen, um KiCad mitzuteilen, dass "
+"von irgendwoher Spannung bereitgestellt wird. Drücken Sie die Taste [a] und suchen "
+"Sie nach 'PWR_FLAG' aus der Bibliothek 'power'. Platzieren Sie zwei davon. "
+"Verbinden Sie diese mit einem GND Pin und mit VCC wie unten zu sehen."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: getting_started_in_kicad.adoc:553
@@ -1714,7 +1689,6 @@ msgstr "images/gsik_tutorial1_070.png"
 # The warning message needs to be translated, the respective string seems to be missing in kicad-i18n.
 #. type: Plain text
 #: getting_started_in_kicad.adoc:557
-#, fuzzy
 #| msgid ""
 #| "This will avoid the classic schematic checking warning: Warning Pin "
 #| "power_in not driven (Net xx)"
@@ -1722,12 +1696,11 @@ msgid ""
 "This will avoid the classic schematic checking warning: _Pin connected to "
 "some other pins but no pin to drive it_."
 msgstr ""
-"Dies verhindert eine klassische Fehlermeldung beim Prüfen des Schaltplans: "
-"'Pin xx (Eingang) von Bauteil xx ist nicht verbunden.'"
+"Dies verhindert die klassische Fehlermeldung beim Prüfen eines Schaltplans: "
+"'Pin ist mit anderen Pins verbunden, wird jedoch von keinem angesteuert.'"
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:561
-#, fuzzy
 #| msgid ""
 #| "Sometimes it is good to write comments here and there. To add comments on "
 #| "the schematic use the 'Place graphic text (comment)' icon image:images/"
@@ -1737,13 +1710,12 @@ msgid ""
 "the schematic use the 'Place text' icon image:images/icons/text."
 "png[text_png] on the right toolbar."
 msgstr ""
-"Sehr oft ist es eine gute Idee Kommentare in den Schaltplan zu schreiben. Um "
-"Kommentare hinzuzufügen benutzen Sie das Icon 'Text hinzufügen' image:images/"
-"icons/text.png[Text hinzufügen] in der rechten Toolbar."
+"Zuweilen ist es gut, hier und dort Kommentare zu schreiben. Um Kommentare "
+"im Schaltplan hinzuzufügen, benutzen Sie das Icon 'Text hinzufügen' image:images/"
+"icons/text.png[Text hinzufügen] in der rechten Werkzeugliste."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:567
-#, fuzzy
 #| msgid ""
 #| "All components now need to have unique identifiers. In fact, many of our "
 #| "components are still named 'R?' or 'J?'. Identifier assignation can be "
@@ -1755,16 +1727,15 @@ msgid ""
 "automatically by clicking on the 'Annotate schematic symbols' icon image:"
 "images/icons/annotate.png[annotate_png] on the top toolbar."
 msgstr ""
-"Nun benötigen alle Bauteile eine eindeutige Identifikation. Aktuell sind "
-"alle Komponenten immer noch 'R?' oder 'J?' benannt. Eine "
-"Identifikationszuweisung kann automatisch erfolgen indem das Icon "
-"'Annotation im Schaltplan durchführen' image:images/icons/annotate."
-"png[Annotation im Schaltplan durchführen] in der oberen Toolbar angeklickt "
-"wird."
+"Alle Bauteile benötigen nun eindeutige Kennzeichner. Tatsächlich sind "
+"viele unserer Komponenten immer noch mit 'R?' oder 'J?' benannt. Die "
+"Zuweisung von Kennzeichnern kann automatisch erfolgen, indem das Icon "
+"'Annotation Schaltplansymbole durchführen' image:images/icons/annotate."
+"png[Annotation im Schaltplan durchführen] in der oberen Werkezugliste "
+"angeklickt wird."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:574
-#, fuzzy
 #| msgid ""
 #| "In the Annotate Schematic window, select 'Use the entire schematic' and "
 #| "click on the 'Annotation' button. Click OK in the confirmation message "
@@ -1778,12 +1749,13 @@ msgid ""
 "they have been named 'R1', 'R2', 'U1', 'D1' and 'J1'."
 msgstr ""
 "Im Fenster 'Annotation des Schaltplans' wählen Sie 'Auf alle Schaltpläne "
-"anwenden' (Anwendungsbereich) aus und betätigen den Button Annotation. "
-"Bestätigen Sie die Rückfrage mit OK. Nun sind alle Stellen im Schaltplan mit "
-"'?' mit Zahlen ersetzt worden. Jedes Bauteil hat nun eine eindeutige "
-"Identifikation. In unserem Beispiel sind diese nun mit 'R1', 'R2', 'U1', "
-"'D1' und 'J1' bezeichnet."
+"anwenden' aus und betätigen den Button 'Annotation'. Klicken Sie 'Schließen'."
+"Beachten Sie, wie alle '?' durch Zahlen ersetzt wurden. Jedes Bauteil hat nun "
+"einen eindeutigen Kennzeichner. In unserem Beispiel wurden sie 'R1', 'R2', "
+"'U1', 'D1' und 'J1' benannt."
 
+# It is not true that the ERC report delivers more information than the window in
+# the programm itself.
 #. type: Plain text
 #: getting_started_in_kicad.adoc:583
 msgid ""
@@ -1796,22 +1768,19 @@ msgid ""
 "Check 'Create ERC file report' and press the 'Run' button again to receive "
 "more information about the errors."
 msgstr ""
-"Prüfen wir nun unseren Schaltplan auf Fehler. Klicken Sie dazu auf das Icon "
+"Wir werden nun nun unseren Schaltplan auf Fehler prüfen. Klicken Sie auf das Icon "
 "'Electrical Rules Check durchführen' image:images/icons/erc.png[Electrical "
-"Rules Check durchführen]. Im erscheinenden Fester klicken Sie auf den "
-"'Start' Button. Ein Bericht wird erstellt und informiert Sie über Fehler und "
-"Warnungen wie z.B. nicht verbundene Pins oder Signale. Sie sollten Null "
-"Fehler und Null Warnungen angezeigt bekommen. Wenn ein Fehler oder eine "
-"Warnung festgestellt worden ist wird ein kleiner grüner Pfeil im Schaltplan "
-"die Stelle zeigen, an der der Fehler oder die Warnung lokalisiert worden "
-"ist. Aktivieren Sie die Checkbox 'ERC Protokolldatei erstellen' und führen "
-"Sie den Test erneut durch, es wird nun eine *.erc Datei erstellt, "
-"abgespeichert und geöffnet in der weitere Information über die Fehler/"
-"Warnungen stehen."
+"Rules Check durchführen] in der oberen Werkzeugleiste. Klicken Sie auf den "
+"'Starte' Button. Ein Bericht wird erstellt, der Sie über Fehler und "
+"Warnungen wie nicht verbundene Leitungen informiert. Sie sollten keine "
+"Fehler und keine Warnungen angezeigt bekommen. Im Fall von Fehlern oder "
+"Warnungen wird ein kleiner grüner Pfeil im Schaltplan an der Stelle erscheinen, "
+"an der der Fehler oder die Warnung entstanden ist. Aktivieren Sie die "
+"Checkbox 'ERC Protokolldatei erstellen' und drücken Sie erneut den 'Starte' "
+"Button, um mehr Information über die Fehler zu bekommen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:587
-#, fuzzy
 #| msgid ""
 #| "If you have a warning with \"No default editor found you must choose it"
 #| "\", try setting the path to `c:\\windows\\notepad.exe` (windows) or `/usr/"
@@ -1821,14 +1790,12 @@ msgid ""
 "try setting the path to `c:\\windows\\notepad.exe` (windows) or `/usr/bin/"
 "gedit` (Linux)."
 msgstr ""
-"Wenn Sie eine Warnung erhalten 'Keine Einstellungen für Editor gefunden. "
-"Bitte einen vorgeben.\" stellen Sie bitte unter Windows `c:\\windows"
-"\\notepad.exe` ein bzw. unter Linux z.B. `/usr/bin/gedit` (Gnome) oder auch "
-"`/usr/bin/kwrite` (KDE)."
+"Wenn Sie eine Warnung mit dem Text 'Keine Einstellungen für Editor gefunden. "
+"Bitte einen vorgeben.' erhalten, probieren Sie den Pfad `c:\\windows\\notepad.exe` "
+"(Windows) bzw. `/usr/bin/gedit` (Linux) einzustellen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:593
-#, fuzzy
 #| msgid ""
 #| "The schematic is now finished. We can now create a Netlist file to which "
 #| "we will add the footprint of each component. Click on the 'Generate "
@@ -1841,12 +1808,11 @@ msgid ""
 "icon image:images/icons/netlist.png[netlist_png] on the top toolbar. Click "
 "on the 'Generate Netlist' button and save under the default file name."
 msgstr ""
-"Der Schaltplan ist nun fertig gestellt. Wir können nun eine Netzliste "
-"erstellen zu der wir später die Footprints für jedes Bauteil hinzufügen. "
+"Der Schaltplan ist nun fertiggestellt. Wir können nun eine Netzlistendatei "
+"erstellen, zu der wir die Footprints für jedes Bauteil hinzufügen werden. "
 "Klicken Sie auf das Icon 'Netzliste erstellen' image:images/icons/netlist."
-"png[Netzliste erstellen] in der oberen Toolbar. Klicken Sie auf 'Erstellen' "
-"und im sich öffnenden Dateidialog auf den Button Speichern. Speichern Sie "
-"die Datei mit dem voreingestellten Dateinamen."
+"png[Netzliste erstellen] in der oberen Werkzeugleiste. Klicken Sie auf den Button "
+"'Erstellen' und speichern Sie die Datei mit dem voreingestellten Dateinamen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:598
@@ -1864,9 +1830,9 @@ msgid ""
 "error window pops up, just ignore it and click OK."
 msgstr ""
 "Nach dem Erstellen der Datei mit der Netzliste klicken Sie auf das Icon "
-"'Starte CvPcb' image:images/icons/cvpcb.png[Starte CvPcb] in der oberen "
-"Toolbar. Sollte es zu einer Fehlermeldung über eine fehlende Datei kommen "
-"ignorieren Sie dies bitte und betätigen den OK Button."
+"'Zuweisen von PCB Footprints zu Schaltplansymbolen' image:images/icons/cvpcb.png[Starte CvPcb] "
+"in der oberen Werkzeugliste. Sollte ein Fenster mit einer Fehlermeldung über eine fehlende "
+"Datei angezeigt werden, ignorieren Sie dieses einfach und betätigen den OK Button."
 
 #. type: delimited block =
 #: getting_started_in_kicad.adoc:607
@@ -1899,10 +1865,9 @@ msgid ""
 "and select the footprint when you select a new symbol to place\n"
 msgstr ""
 
-#.  missing image here?
+# missing image here?
 #. type: Plain text
 #: getting_started_in_kicad.adoc:621
-#, fuzzy
 #| msgid ""
 #| "_Cvpcb_ allows you to link all the components in your schematic with "
 #| "footprints in the KiCad library. The pane on the center shows all the "
@@ -1916,12 +1881,11 @@ msgid ""
 "right you have all the available footprints, here scroll down to 'LED_THT:"
 "LED-D5.0mm' and double click on it."
 msgstr ""
-"_CvPcb_ erlaubt es Ihnen alle Bauteile aus dem Schaltplan mit den Footprints "
-"aus der KiCad Bibliothek zu verbinden. Das Auswahlfenster in der Mitte zeigt "
-"alle Bauteile die Sie in Ihrem Schaltplan verwenden. Wählen Sie hier in der "
-"Liste den Eintrag mit der Bauteil Identifikation 'D1'. Im rechten "
-"Auswahlfenster sind alle verfügbaren Footprints, scrollen Sie zum Eintrag "
-"'LEDs:LED-5MM' und klicken Sie doppelt auf diesen."
+"_Bauteilfootprints zuweisen_ erlaubt es Ihnen, alle Bauteile aus dem Schaltplan "
+"mit Footprints aus der KiCad Bibliothek zu verbinden. Das Fenster in der Mitte zeigt "
+"alle Bauteile, die Sie in Ihrem Schaltplan verwenden. Wählen Sie hier 'D1'. "
+"Im rechten Fenster sehen Sie alle verfügbaren Footprints, scrollen Sie hier herunter "
+"zum Eintrag 'LED_THT:LED_D5.0mm' und klicken Sie doppelt auf diesen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:629
@@ -1935,53 +1899,38 @@ msgid ""
 "these filters."
 msgstr ""
 "Es ist möglich das im rechten Fenster nur Footprints einer ausgewählten "
-"Untergruppe sichtbar sind. Dies kann vorkommen wenn Kicad versucht eine "
-"Teilmenge von möglichen passenden Footprints zusammenzustellen. Klicken Sie "
+"Untergruppe sichtbar sind. Dies kann vorkommen, wenn Kicad versucht, eine "
+"Teilmenge von möglichen passenden Footprints vorzuschlagen. Klicken Sie "
 "auf die Icons image:images/icons/module_filtered_list.png[Liste der "
 "Footprints nach Schaltplan Schlüsselwörtern filtern], image:images/icons/"
 "module_pin_filtered_list.png[Liste der Footprints nach Pinanzahl filtern] "
 "und image:images/icons/module_library_list.png[Liste der Footprints nach "
-"Bibliotheken  filtern] um diese Filterfunktion ein oder auszuschalten."
+"Bibliotheken  filtern], um diese Filterfunktion ein oder auszuschalten."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:634
-#, fuzzy
-#| msgid ""
-#| "For 'IC1' select the 'Housings_DIP:DIP-8_W7.62mm' footprint.  For 'J1' "
-#| "select the 'Connect:Banana_Jack_3Pin' footprint.  For 'R1' and 'R2' "
-#| "select the 'Discret:R1' footprint."
 msgid ""
 "For 'U1' select the 'Package_DIP:DIP-8_W7.62mm' footprint.  For 'J1' select "
 "the 'Connector:Banana_Jack_3Pin' footprint.  For 'R1' and 'R2' select the "
 "'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical' footprint."
 msgstr ""
-"Für 'IC1' wählen Sie den 'Housings_DIP:DIP-8_W7.62mm' Footprint. Für 'J1' "
-"wählen Sie den Footprint 'Connect:Banana_Jack_3Pin'. Für 'R1' und 'R2' "
-"wählen Sie den 'Discret:R1' Footprint."
+"Für 'U1' wählen Sie den 'Package_DIP:DIP-8_W7.62mm' Footprint. Für 'J1' "
+"wählen Sie den Footprint 'Connector:Banana_Jack_3Pin'. Für 'R1' und 'R2' "
+"wählen Sie den 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical' Footprint."
 
 # The Icon for the PDF documentation file is gone away some time ago. The original documentation needs to be updated.
 #. type: Plain text
 #: getting_started_in_kicad.adoc:639
-#, fuzzy
-#| msgid ""
-#| "If you are interested in knowing what the footprint you are choosing "
-#| "looks like, you have two options. You can click on the 'View selected "
-#| "footprint' icon image:images/icons/show_footprint.png[show_footprint_png] "
-#| "for a preview of the current footprint. Alternatively, click on the "
-#| "'Display footprint list documentation' icon image:images/icons/datasheet."
-#| "png[datasheet_png] and you will get a multi-page PDF document with all "
-#| "available footprints. You can print it out and check your components to "
-#| "make sure that the dimensions match."
 msgid ""
 "If you are interested in knowing what the footprint you are choosing looks "
 "like, you can click on the 'View selected footprint' icon image:images/icons/"
 "show_footprint.png[show_footprint_png] for a preview of the current "
 "footprint."
 msgstr ""
-"Wenn Sie wissen wollen wie der Footprint aussieht den auswählen haben Sie "
-"zwei Möglichkeiten. Sie können auf das Icon 'Ausgewählten Footprint "
-"anzeigen' image:images/icons/show_footprint.png[Ausgewählten Footprint "
-"anzeigen] klicken um eine Vorschau des aktuellen Footprints zu erhalten."
+"Wenn Sie wissen wollen, wie der Footprint aussieht, den Sie auswählen, "
+"können Sie auf das Icon 'Ausgewählten Footprint anzeigen' "
+"image:images/icons/show_footprint.png[Ausgewählten Footprint "
+"anzeigen] klicken, um eine Vorschau des aktuellen Footprints zu erhalten."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:643
@@ -1989,20 +1938,13 @@ msgid ""
 "You are done. You can save the schematic now by clicking *File* -> **Save "
 "Schematic** or with the button 'Apply, Save Schematic & Continue'."
 msgstr ""
+"Sie sind fertig. Sie können den Schaltplan nun speichern, indem Sie auf "
+"*Datei* -> **Schaltplan speichern** klicken" oder auf den Button 'Übernehmen, "
+"Schaltplan speichern & Fortfahren'."
 
-# FIXME
-# The current menu on the netlist editor is different. There is no **Save As**!
+# Point 55
 #. type: Plain text
 #: getting_started_in_kicad.adoc:651
-#, fuzzy
-#| msgid ""
-#| "You are done. You can now update your netlist file with all the "
-#| "associated footprints. Click on *File* -> **Save As**. The default name "
-#| "'tutorial1.net' is fine, click save. Otherwise you can use the icon image:"
-#| "images/icons/save.png[Save icon].  Your netlist file has now been updated "
-#| "with all the footprints. Note that if you are missing the footprint of "
-#| "any device, you will need to make your own footprints. This will be "
-#| "explained in a later section of this document."
 msgid ""
 "You can close _Cvpcb_ and go back to the _Eeschema_ schematic editor. If you "
 "didn't save it in Cvpcb save it now by clicking on *File* -> **Save**. "
@@ -2011,16 +1953,15 @@ msgid ""
 "you will need to make your own footprints. This will be explained in a later "
 "section of this document."
 msgstr ""
-"Sie sind fertig. Sie können nun ihre Netzlistendatei mit allen zugeordneten "
-"Footprints aktualisieren. Klicken Sie auf *Datei* -> **Speichern unter**. "
-"Der vorgegebene Dateiname 'tutorial1.net' ist in Ordnung, klicken Sie auf "
-"Speichern. Sie können auch auf das Icon 'Footprint Assoziierung speichern' "
-"image:images/icons/save.png[Footprint Assoziierung speichern] klicken. Ihre "
-"Netzlistendatei ist mit den Footprints aktualisiert. Beachten Sie das alle "
-"fehlende Footprints von Bauteilen von Ihnen erstellt werden müssen, sofern "
-"diese nicht in einer Bibliothek vorhanden sind. Dies wird später in einer "
-"eigenen Sektion erklärt."
+"Sie können das Fenster 'Bauteilfootprints zuweisen' schließen und zum _Eeschema_ "
+"Schaltplan Editor zurückkehren. Wenn Sie in 'Bauteilfootprints zuweisen' nicht "
+"gespeichert haben, speichern Sie nun, indem Sie auf *Datei* -> **Speichern** "
+"klicken. Erstellen Sie die Netzliste erneut. Ihre Netzlistendatei wurde nun mit "
+"allen Footprints aktualisiert. Beachten Sie, wenn Ihnen Footprints zu irgendeinem "
+"Bauteil fehlen, müssen Sie dafür einen eigenen Footprint erstellen. Dieser Vorgang wird "
+"in einem späteren Abschnitt dieses Dokuments erklärt."
 
+# Is this not needed anymore?
 #. type: Plain text
 #: getting_started_in_kicad.adoc:657
 msgid ""
@@ -2036,7 +1977,7 @@ msgstr ""
 msgid ""
 "Switch to the KiCad project manager.  You can see the net list file in the "
 "file list."
-msgstr ""
+msgstr "Wechseln Sie zum KiCad Projektmanager."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:664
@@ -2046,7 +1987,7 @@ msgid ""
 "inspect, edit or script."
 msgstr ""
 "Die Netzlistendatei beschreibt alle Bauteile und deren zugehörigen Pin "
-"Verbindungen. Die Netzlistendatei ist aktuell eine Textdatei welche Sie sich "
+"Verbindungen. Die Netzlistendatei ist eigentlich eine Textdatei, welche Sie "
 "einfach anschauen, verändern oder skripten können."
 
 #. type: Plain text
@@ -2074,14 +2015,15 @@ msgid ""
 "add one, by clicking on *Add Plugin* button. Select the *.xsl file you want "
 "to use, in this case, we select __bom2csv.xsl__."
 msgstr ""
-"Um eine Stückliste zu erstellen, oft auch BOM - Bill of Material - genannt, "
-"gehen Sie in den _Eeschema_ Schaltplaneditor und Klicken auf das 'Stückliste "
-"und/oder Querbezüge' Icon  image:images/icons/bom.png[Stückliste und/oder "
-"Querbezüge] in der oberen Toolbar. In der Standardeinstellung ist kein "
-"Plugin aktiv. Sie fügen eines hinzu durch Klicken auf den Button *Plugin "
-"hinzufügen*. Wählen Sie die *.xsl Datei die Sie benutzen möchten, in diesem "
+"Um eine Materialliste, auch BOM (Bill of Material) genannt, zu erstellen, "
+"gehen Sie in den _Eeschema_ Schaltplan-Editor und klicken auf das Icon 'Stückliste "
+"(BOM) erstellen' Icon  image:images/icons/bom.png[Stückliste (BOM) erstellen] "
+"in der oberen Werkzeugleiste. In der Standardeinstellung ist kein "
+"Plugin aktiv. Sie fügen eines hinzu, indem sie auf den Button *Plugin "
+"hinzufügen* klicken. Wählen Sie die *.xsl Datei, die Sie benutzen möchten, in diesem "
 "Fall wählen wir __bom2csv.xsl__."
 
+# The following section is not really clear. What is "xsltproc.exe" for?
 #. type: delimited block =
 #: getting_started_in_kicad.adoc:678
 #, no-wrap
@@ -2092,8 +2034,8 @@ msgstr "*Linux:*\n"
 #: getting_started_in_kicad.adoc:680
 msgid "If xsltproc is missing, you can download and install it with:"
 msgstr ""
-"Wenn das Programm xsltproc nicht vorhanden ist können Sie es herunterladen "
-"und installieren durch:"
+"Wenn das Programm xsltproc nicht vorhanden ist, können Sie es folgendermaßen "
+"herunterladen und installieren:"
 
 #. type: delimited block =
 #: getting_started_in_kicad.adoc:682
@@ -2119,9 +2061,9 @@ msgid ""
 "for a RedHat derived distro. If you use neither of the two kind of distro, "
 "use your distro package manager command to install the xsltproc package."
 msgstr ""
-"für eine RedHat basierte Distribution. Wenn Sie keine Distributionen dieser "
-"Art in Benutzung haben verwenden Sie den zu Ihrer Distribution zugehörigen "
-"Paketmanager um das xsltproc Paket zu installieren."
+"für eine RedHat basierte Distribution. Wenn Sie keine dieser Distributionen "
+"benutzen, verwenden Sie den zu Ihrer Distribution zugehörigen Paketmanager "
+"um das xsltproc Paket zu installieren."
 
 #. type: delimited block =
 #: getting_started_in_kicad.adoc:691
@@ -2140,8 +2082,8 @@ msgid ""
 "If xsltproc is missing, you can either install the Apple Xcode tool from the "
 "Apple site that should contain it, or download and install it with:"
 msgstr ""
-"Wenn xsltproc nicht vorhanden ist können Sie Apple Xcode von der Apple "
-"Webseite installieren, welche das Programm enthalten sollte. Oder Sie laden "
+"Wenn xsltproc nicht vorhanden ist, können Sie Apple Xcode von der Apple "
+"Webseite installieren, das das Programm enthalten sollte. Oder Sie laden "
 "es herunter und installieren es mit:"
 
 #. type: delimited block =
@@ -2155,8 +2097,7 @@ msgstr " brew install libxslt\n"
 msgid ""
 "xsl files are located at: _/Library/Application Support/kicad/plugins/_."
 msgstr ""
-"*.xsl Dateien sind abgelegt in: _/Library/Application Support/kicad/plugins/"
-"_."
+"*.xsl Dateien sind abgelegt in: _/Library/Application Support/kicad/plugins/_."
 
 #. type: delimited block =
 #: getting_started_in_kicad.adoc:702
@@ -2184,26 +2125,21 @@ msgstr "*Alle Plattformen:*\n"
 #. type: delimited block =
 #: getting_started_in_kicad.adoc:710
 msgid "You can get the latest bom2csv.xsl via:"
-msgstr "Sie können die aktuellste Version von bom2csv.xsl erhalten durch:"
+msgstr "Sie können die aktuellste Version von bom2csv.xsl hier erhalten:"
 
+# Link is not correct in the original file.
 #. type: delimited block =
 #: getting_started_in_kicad.adoc:712
-#, fuzzy
-#| msgid ""
-#| "https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/"
-#| "eeschema/plugins/bom2csv.xsl"
 msgid ""
-"https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/"
-"plugins/xsl_scripts/bom2csv.xsl"
+"https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/plugins/xsl_scripts/bom2csv.xsl"
 msgstr ""
-"https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/"
-"plugins/bom2csv.xsl"
+"https://github.com/KiCad/kicad-source-mirror/blob/master/eeschema/plugins/xsl_scripts/bom2csv.xsl"
 
 #. type: Block title
 #: getting_started_in_kicad.adoc:714
 #, no-wrap
 msgid "KiCad automatically generates the command, for example:"
-msgstr "KiCad erstellt den Programmaufruf automatisch, zum Beispiel:"
+msgstr "KiCad erstellt den Programmaufruf automatisch, zum Beispiel (in Linux):"
 
 #. type: delimited block -
 #: getting_started_in_kicad.adoc:717
@@ -2211,11 +2147,12 @@ msgstr "KiCad erstellt den Programmaufruf automatisch, zum Beispiel:"
 msgid "xsltproc -o \"%O\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \"%I\"\n"
 msgstr "xsltproc -o \"%O\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \"%I\"\n"
 
+# Not clear: What extension and why?
 #. type: Block title
 #: getting_started_in_kicad.adoc:719
 #, no-wrap
 msgid "You may want to add the extension, so change this command line to:"
-msgstr "Wenn Sie die Erweiterung hinzufügen wollen dann verändern Sie das Kommando zu:"
+msgstr "Wenn Sie die Datei-Erweiterung hinzufügen wollen, dann verändern Sie das Kommando zu:"
 
 #. type: delimited block -
 #: getting_started_in_kicad.adoc:722
@@ -2226,7 +2163,7 @@ msgstr "xsltproc -o \"%O.csv\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl
 #. type: Plain text
 #: getting_started_in_kicad.adoc:725
 msgid "Press Help button for more info."
-msgstr "Benutzen Sie den Hilfe Button für mehr Information."
+msgstr "Benutzen Sie den Hilfe Button für mehr Informationen."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:729
@@ -2235,9 +2172,9 @@ msgid ""
 "your project folder.  Open the **.csv* file with LibreOffice Calc or Excel. "
 "An import window will appear, press OK."
 msgstr ""
-"Klicken Sie nun auf 'Erstellen'. Die Datei die erstellt wird (mit dem "
-"gleichen Namen wie das Projekt) wird im Projektordner abgespeichert. Öffnen "
-"Sie die **.csv* Datei mit LibreOffice oder auch Excel."
+"Klicken Sie nun auf 'Erstellen'. Die Datei (mit dem gleichen Namen wie das Projekt) "
+"liegt im Projektordner. Öffnen Sie die **.csv* Datei mit LibreOffice "
+"oder auch Excel."
 
 #. type: Plain text
 #: getting_started_in_kicad.adoc:733
@@ -2246,9 +2183,9 @@ msgid ""
 "next section. However, before moving on let's take a quick look at how to "
 "connect component pins using a bus line."
 msgstr ""
-"Sie können nun die Erstellung des PCB Layouts beginnen, dies wird in der "
-"nächsten Sektion erklärt. Aber zuvor schauen wir uns noch schnell an wie man "
-"Bauteilpins mit Bus Linien verbindet."
+"Sie sind nun bereit, um die Erstellung des PCB Layouts beginnen, was im "
+"nächsten Abschnitt erklärt wird. Aber wir weitermachen, werfen wir einen schnellen Blick "
+"darauf, wie man Bauteil-Pins mit Bus-Leitungen verbindet."
 
 #. type: Title ===
 #: getting_started_in_kicad.adoc:735
